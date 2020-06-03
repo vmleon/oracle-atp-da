@@ -1,5 +1,7 @@
 # Oracle APEX and Digital Assistant
 
+![Oracle](images/oracle_small.png)
+
 ## Conversational approach to your applications
 
 This workshop walks you through the steps to build an APEX application and enable you to talk to your customers by integrating Digital Assistant and your backend REST API.
@@ -8,7 +10,7 @@ Oracle Application Express (APEX) is included with your Oracle Autonomous Databa
 
 ## Who Should Read This Workshop
 
-You want to **build APEX applications** and provide a 24/7 conversational experience with the people using your services.
+You want to **build APEX applications** and provide **a 24/7 conversational experience** with the people using your services.
 
 You want to **learn Oracle Digital Assistant** in Oracle Cloud.
 
@@ -59,8 +61,7 @@ At this point, you are ready to start learning!
 
 [Appendix](appendix/README.md)
 
-- Next steps
-- Feedback
+- Want to learn more?
 - Troubleshooting
 
 ---
