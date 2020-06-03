@@ -3,7 +3,7 @@
 If you enjoy the workshop, give me a star on Github: [click here](https://github.com/vmleon/oracle-atp-da)!
 ![Github start](../images/github.png)
 
-Please, help us to improve. [Create an issue](https://github.com/vmleon/OracleATPGettingStarted/issues) if you think something is not quite right.
+Please, help us to improve. [Create an issue](https://github.com/vmleon/oracle-atp-da/issues) if you think something is not quite right.
 
 ---
 
