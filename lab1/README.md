@@ -1,4 +1,6 @@
-# Lab 1: Create Application Express (APEX)
+# Lab 1: Create Autonomous Database
+
+![Autonomous](../images/autonomous.webp)
 
 **XXX**
 
@@ -6,7 +8,7 @@
 
 **XXX**
 
-## Create an APEX workspace
+## Quick walk-through
 
 **XXX**
 

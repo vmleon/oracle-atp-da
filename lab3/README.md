@@ -1,5 +1,7 @@
 # Lab 3: Create Oracle Digital Assistant
 
+![Oracle Digital Assistant](../images/oda.png)
+
 **XXX**
 
 ## Create a Digital Assistant instance

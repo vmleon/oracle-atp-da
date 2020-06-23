@@ -1,20 +1,18 @@
-# Oracle APEX and Digital Assistant
+# Oracle Autonomous Database and Digital Assistant
 
 ![Oracle](images/oracle_small.png)
 
 ## Conversational approach to your applications
 
-This workshop walks you through the steps to build an APEX application and enable you to talk to your customers by integrating Digital Assistant and your backend REST API.
-
-Oracle Application Express (APEX) is included with your Oracle Autonomous Databases. Therefore, APEX inherits the self-driving, self-securing, self-repairing features and it can instantly scale to meet your demands.
+This workshop walks you through the steps to use Autonomous Database as NoSQL repository, offer a REST API to integrate and enable you to talk to your customers by with Digital Assistant and your backend REST API.
 
 ## Who Should Read This Workshop
 
-You want to **build APEX applications** and provide **a 24/7 conversational experience** with the people using your services.
+You want to **store information in a easy and powerful database** and provide **a 24/7 conversational experience** with the people using your services.
 
 You want to **learn Oracle Digital Assistant** in Oracle Cloud.
 
-You are also interested in exploring other technologies to build **low-code applications**.
+You are also interested in exploring modern ways to store information like **NoSQL** technologies and build **secure and powerful RES APIs**.
 
 ## Requirements
 
@@ -34,15 +32,15 @@ At this point, you are ready to start learning!
 
 ## Content
 
-[Lab 1: Create Application Express (APEX)](lab1/README.md)
+[Lab 1: Create Autonomous Database](lab1/README.md)
 
 - Create your Autonomous Database
-- Create an APEX workspace
+- Quick walk-through
 
 [Lab 2: Create Application and REST API](lab2/README.md)
 
-- Quick SQL for a fast generation of data model
-- Generate the REST API from the data model
+- Simple Object Data Access (SODA)
+- Use the REST API
 
 [Lab 3: Create Oracle Digital Assistant](lab3/README.md)
 
