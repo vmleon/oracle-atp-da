@@ -6,7 +6,7 @@
 
 **XXX** expand details about SODA
 
-Enable `ADMIN` user to use SODA by running the following statement on SQL Developer Web:
+The first step is to enable `ADMIN` user to use SODA by running the following statement on SQL Developer Web:
 
 ```sql
 GRANT SODA_APP TO admin;
@@ -14,14 +14,25 @@ GRANT SODA_APP TO admin;
 
 ## Use the REST API
 
-Create jokes collection
+We are going to work with collections that in our case will contain the jokes.
+
+Create `jokes` collection by run `curl` on the terminal:
+
+- Remember to change `<password>` with the ADMIN password you have for your Autonomous Database.
+- Another substititon is for `<soda_instance_url>`, you can find this information on Service Console:
+
+![SODA URL](../images/soda_url.png)
+
+Run the command to create the collection:
 
 ```bash
-curl -XPUT -u 'ADMIN:<password>' 'https://<soda_instance_url>/admin/soda/latest/jokes'
+curl -XPUT -u 'ADMIN:<password>' '<soda_instance_url>/admin/soda/latest/jokes'
 ```
 
+Insert your first element in the collection with:
+
 ```bash
-curl -XPOST -H "Content-Type: application/json" -u 'ADMIN:<password>' --data '{"text": "Hello JSON"}' 'https://<soda_instalce_url>/admin/soda/latest/jokes'
+curl -XPOST -H "Content-Type: application/json" -u 'ADMIN:<password>' --data '{"text": "Hello JSON"}' '<soda_instalce_url>/admin/soda/latest/jokes'
 ```
 
 ## It works
@@ -57,7 +68,7 @@ How many rows do you see?
 Do the same request with REST API:
 
 ```bash
-curl -u 'ADMIN:<password>' 'https://<soda_intance_url>/admin/soda/latest/jokes'
+curl -u 'ADMIN:<password>' '<soda_intance_url>/admin/soda/latest/jokes'
 ```
 
 Congratulations! You are ready to go to the next Lab!

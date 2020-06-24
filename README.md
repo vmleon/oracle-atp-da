@@ -26,6 +26,8 @@ After you log-in in your Oracle Cloud Account, you should see the web console, l
 
 ![Oracle Cloud Web Console](./images/webconsole.png)
 
+Install `Node.js`, `curl` or `PostMan`.
+
 At this point, you are ready to start learning!
 
 ---
