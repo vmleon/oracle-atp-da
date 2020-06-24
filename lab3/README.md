@@ -1,6 +1,6 @@
 # Lab 3: Create Oracle Digital Assistant
 
-![Oracle Digital Assistant](../images/oda.png)
+![Oracle Digital Assistant](../images/oda.webp)
 
 **XXX**
 
