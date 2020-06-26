@@ -4,13 +4,13 @@
 
 ## Conversational approach to your applications
 
-This workshop walks you through the steps to use Autonomous Database as NoSQL repository, offer a REST API to integrate and enable you to talk to your customers by with Digital Assistant and your backend REST API.
+This workshop walks you through the steps to use Autonomous Database as a NoSQL repository, offer a REST API to integrate with and enable you to interact with your customers by keeping a conversation with Digital Assistant.
 
-## Who Should Read This Workshop
+## Who Should Do This Workshop
 
 You want to **store information in a easy and powerful database** and provide **a 24/7 conversational experience** with the people using your services.
 
-You want to **learn Oracle Digital Assistant** in Oracle Cloud.
+You want to **learn Oracle Digital Assistant**.
 
 You are also interested in exploring modern ways to store information like **NoSQL** technologies and build **secure and powerful RES APIs**.
 
@@ -26,7 +26,7 @@ After you log-in in your Oracle Cloud Account, you should see the web console, l
 
 ![Oracle Cloud Web Console](./images/webconsole.png)
 
-Install `Node.js`, `curl` or `PostMan`.
+You will also need to install [Node.js](https://nodejs.org/en/download/). In order to execute REST API calls, you can install [curl](https://curl.haxx.se/download.html) (preferred) or [PostMan](https://www.postman.com/downloads/).
 
 At this point, you are ready to start learning!
 
