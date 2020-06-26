@@ -91,7 +91,63 @@ To avoid name conflicts, change the `name` property of the `metadata` function:
 ```
 
 ```javascript
-Full code goes here!
+"use strict";
+
+const request = require("request");
+
+const ordsURL = "<SODA_URL>/ords";
+const collection = "jokes";
+
+const username = "ADMIN";
+const password = "<ADMIN_PASSOWRD>";
+const authString = `${username}:${password}`;
+
+function getJokes(urlRequest, logger, callback) {
+  logger.info(urlRequest);
+  try {
+    request(urlRequest, { json: true }, (err, res, body) => {
+      if (err) {
+        logger.error(err.message);
+        callback(err.message);
+        return;
+      }
+      if (res.statusCode !== 200) {
+        logger.error(`Invalid status ${res.statusCode}`);
+        callback(`Invalid status ${res.statusCode}`);
+        return;
+      }
+      callback(null, body.items);
+    });
+  } catch (error) {
+    logger.error(err.message);
+    callback(error);
+  }
+}
+
+module.exports = {
+  metadata: () => ({
+    name: "com.example.jokes",
+    supportedActions: ["success", "failure"],
+  }),
+  invoke: (conversation, done) => {
+    const urlRequest = `https://${authString}@${ordsURL}/${username.toLowerCase()}/soda/latest/${collection}`;
+    getJokes(urlRequest, conversation.logger(), (err, items) => {
+      if (err) {
+        conversation.transition("failure");
+        done();
+        return;
+      }
+      const values = items.map((item) => item.value);
+      const jokes = values.map((v) => v.text);
+      conversation
+        .reply("Greetings hooman! ")
+        .reply(jokes.join("\n"))
+        .transition("success");
+      done();
+    });
+  },
+};
+
 ```
 
 ## Deploy the custom component
