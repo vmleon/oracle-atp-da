@@ -1,5 +1,7 @@
 # Lab 2: Create Application and REST API
 
+![SODA](../images/soda.png)
+
 Each Autonomous Database instance includes Oracle REST Data Services (ORDS) and Simple Object Data Access (SODA) that provides HTTPS interfaces for working with the contents of your Oracle Database in REST enabled schemas.
 
 ## Simple Object Data Access (SODA)
