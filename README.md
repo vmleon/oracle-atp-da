@@ -8,11 +8,11 @@ This workshop walks you through the steps to use Autonomous Database as a NoSQL 
 
 ## Who Should Do This Workshop
 
-You want to **store information in a easy and powerful database** and provide **a 24/7 conversational experience** with the people using your services.
+You want to **store information in a easy and powerful database** and provide **a 24/7 conversational experience** with people using your services.
 
 You want to **learn Oracle Digital Assistant**.
 
-You are also interested in exploring modern ways to store information like **NoSQL** technologies and build **secure and powerful RES APIs**.
+You are also interested in exploring modern ways to store information like **NoSQL** technologies and build **secure and powerful REST APIs**.
 
 ## Requirements
 
