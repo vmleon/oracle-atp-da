@@ -46,7 +46,8 @@ Finally click "Create" button:
 
 ![ODA Menu](../images/oda_3.png)
 
-Wait for the instance to be "Active" and then on the instance menu, click on "Service Console":
+Wait for the instance to be "Active". The creation process will take a few minutes.
+Once the instance is Active, then on the instance menu, click on "Service Console":
 
 ![ODA Menu](../images/oda_4.png)
 
