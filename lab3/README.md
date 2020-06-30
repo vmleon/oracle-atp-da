@@ -10,7 +10,7 @@ Oracle Digital Assistant is a platform that allows enterprises to create and dep
 
 You can add skills to digital assistants or deploy them to a channel on their own.
 
-### Basic Concepts
+### Basic Concepts
 
 Before you dive into digital assistant and skill development, here are some concepts you’ll want to get familiar with:
 
