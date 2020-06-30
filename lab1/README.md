@@ -10,7 +10,7 @@ Go to the ATP menu:
 
 ![Menu ATP](./../images/menu_atp.png)
 
-Check you are in the **root compartment** that is fine for testing.
+Check if you are in the **root compartment** that is fine for testing.
 
 > Compartments are a logical separation of resources to attach roles and permissions. It will make possible to create your team structure in compartments so you know who manage what resources. Not necessary at this stage.
 
