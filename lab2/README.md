@@ -20,50 +20,97 @@ Where schema corresponds to the REST enabled database schema (for example, "admi
 
 Feel free to investigate more on the [SODA for REST documentation](https://docs.oracle.com/en/database/oracle/simple-oracle-document-access/rest/index.html)
 
-The first step is to enable `ADMIN` user to use SODA by running the following statement on SQL Developer Web:
+The first step is to enable `ADMIN` user to use SODA.
+
+Run the following statement on **SQL Developer Web**:
 
 ```sql
 GRANT SODA_APP TO admin;
 ```
 
+![GRANT SODA](../images/grant_soda.png)
+
 ## Use the REST API
 
 We are going to work with collections that in our case will contain the jokes.
 
-Create `jokes` collection by run `curl` on the terminal:
-
-- Remember to change `<password>` with the ADMIN password you have for your Autonomous Database.
-- Another substitution is for `<soda_instance_url>`, you can find this information on Service Console:
+To have access to the SODA REST API, we need to know the endpoint URL of the service. Go to your **Autonomous Transaction Processing** database, in the **Service Console** there is a **Development** section where you can find **RESTful Services and SODA**, copy the URL and save it for later.
 
 ![SODA URL](../images/soda_url.png)
 
-Run the command to create the collection:
+We are going to need to install a REST API client. If you are familiar with `curl` go for it, but in this guided steps we are going to use [PostMan](https://www.postman.com/).
 
-```bash
-curl -XPUT -u 'ADMIN:<password>' '<soda_instance_url>/admin/soda/latest/jokes'
+Go to the [Postman Download](https://www.postman.com/downloads/) website page.
+
+![Download Postman](../images/postman_download.png)
+
+Run the downloaded file to install Postman.
+
+![Install Postman](../images/postman_install.png)
+
+After a few seconds, we will have Postman up and running:
+
+![Postman hello](../images/postman_hello.png)
+
+### Create the collection
+
+Create `jokes` collection with `Postman` by creating a new tab and set the following information:
+
+![PUT request](../images/postman_create_collection.png)
+
+- `PUT` as method
+- SODA URL from the service console (we copy that URL in a previous step). Something like `https://xxxxxxxxxx.adb.yyyyyyyyyyy.oraclecloudapps.com/ords/admin/soda/latest/jokes`
+- In Authorization you have to set TYPE as `Basic Auth`
+- Username is `ADMIN` and password is the password you set when creating your Autonomous Database.
+
+Click on Send (blue button) on Postman and wait for the response. Confirm you got a Status 201 Created:
+
+![Status 201 Collection created](../images/postman_collection_201.png)
+
+> NOTE:
+> 
+> If you get an error `401 Unauthorized` or similar like this:
+> ![401](../images/postman_401.png)
+> Make sure the `URL`, `username` and `password` are correct.
+
+### Insert elements to the collection
+
+Insert your first element in the collection by:
+
+![Insert 1](../images/postman_insert_1.png)
+
+with body request:
+
+```json
+{"text": "Never trust atoms; they make up everything."}
+```
+Insert your second element in the collection by:
+
+![Insert 2](../images/postman_insert_2.png)
+
+with body request:
+
+```json
+{"text": "My wife told me to stop impersonating a flamingo. I had to put my foot down."}
 ```
 
-Insert your first element in the collection with:
+In both cases, the response should be a `201 Created`:
 
-```bash
-curl -XPOST -H "Content-Type: application/json" -u 'ADMIN:<password>' --data '{"text": "Never trust atoms; they make up everything."}' '<soda_instalce_url>/admin/soda/latest/jokes'
-```
-
-Insert your second element in the collection with:
-
-```bash
-curl -XPOST -H "Content-Type: application/json" -u 'ADMIN:<password>' --data '{"text": "My wife told me to stop impersonating a flamingo. I had to put my foot down."}' '<soda_instalce_url>/admin/soda/latest/jokes'
-```
+![Item created 201](../images/postman_create_item_201.png)
 
 ## It works
 
-Look at the shape of the table behind SODA, go to SQL Developer Web and run:
+Look at the shape of the table behind SODA.
+
+Go to **SQL Developer Web** and run:
 
 ```sql
 DESCRIBE JOKES;
 ```
 
-You will see something like this:
+![Describe table](../images/describe.png)
+
+You will see something like this result:
 
 ```bash
 Name          Null?    Type
@@ -77,21 +124,17 @@ JSON_DOCUMENT          BLOB
 
 **XXX** Explain a bit of the structure of the table
 
-Check the content of the table `jokes` on SQL Developer Web:
+Check the content of the table `jokes`.
+
+On **SQL Developer Web** run the following statement:
 
 ```sql
 SELECT * FROM JOKES;
 ```
 
-How many rows do you see? You should have two rows in the table.
+![Select](../images/select.png)
 
-Do the same request with REST API:
-
-```bash
-curl -u 'ADMIN:<password>' '<soda_intance_url>/admin/soda/latest/jokes'
-```
-
-> `jq` is a lightweight and flexible command-line JSON processor. It will make your life easier when reading JSON responses. [Download jq](https://stedolan.github.io/jq/).
+How many rows do you see? You should have 2 rows in the table.
 
 Congratulations! You are ready to go to the next Lab!
 
