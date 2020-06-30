@@ -122,7 +122,13 @@ VERSION       NOT NULL VARCHAR2(255)
 JSON_DOCUMENT          BLOB
 ```
 
-**XXX** Explain a bit of the structure of the table
+> NOTE:
+> 
+> - **ID**: Contains the unique ID for this document.
+> - **LAST_MODIFIED**: The date and time of the last update of the document.
+> - **CREATED_ON**: The data and time the document was created.
+> - **VERSION**: The current version of SODA adopts an optimistic locking strategy to versioning documents.
+> - **JSON_DOCUMENT**: The JSON document content created.
 
 Check the content of the table `jokes`.
 
