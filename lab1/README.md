@@ -46,7 +46,7 @@ Look around the details and get familiar with the buttons and tabs on this page.
 
 ## Use Web SQL Developer
 
-Time to run some SQL code. Traditionally you would have to download the software and configure the connection with the database. With Oracle Cloud and Autonomous Database you have another option.
+Time to run some SQL code. Traditionally you would have to download the software and configure the connection with the database. With Oracle Cloud and Autonomous Database you have another option available and no configuration is needed.
 
 SQL Developer is available on the web console. Click on **Service Console** button.
 
