@@ -51,15 +51,25 @@ Once the instance is Active, then on the instance menu, click on "Service Consol
 
 ![ODA Menu](../images/oda_4.png)
 
-You will have to log in again with your account name and your user and password.
+You will have to log-in again with your account name and your user and password.
 
-Then you will be on the Oracle Digital Assitant dashboard where you can start building your bots:
+Type your account name:
+
+![ODA Log in](../images/oda_login_1.png)
+
+And then click in **Continue** on the **Single Sign-On (SSO)** side:
+
+![ODA Log in](../images/oda_login_2.png)
+
+Introduce your username and password and you are ready to visit Oracle Digital Assistant Home page.
+
+You will be on the Oracle Digital Assitant Dashboard where you can start building your bots.
 
 ![ODA Menu](../images/oda_5.png)
 
 ## Explore your Digital Assistant
 
-Remember you can Watch Videos and expore the documentation of Oracle Digital Assitant by following the links on the dashboard.
+You can always **Watch Videos** on the **Learn** section at the bottom and explore the documentation of Oracle Digital Assitant by following the links on the dashboard.
 
 ## It works
 
