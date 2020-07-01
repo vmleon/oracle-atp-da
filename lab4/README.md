@@ -46,7 +46,7 @@ The last step sometimes take a while on Windows because the lack of libraries, p
 
 ![Node Native Modules Installation](../images/node_native_module.png)
 
-Check the installation when well. Open a Command Prompt, or Terminal in Linux and MacOS and run the following commands:
+Check if the installation went well. Open a Command Prompt, or Terminal in Linux and MacOS and run the following commands:
 
 ```bash
 node -v
