@@ -26,7 +26,7 @@ After you log-in in your Oracle Cloud Account, you should see the web console, l
 
 ![Oracle Cloud Web Console](./images/webconsole.png)
 
-You will also need to install [Node.js](https://nodejs.org/en/download/). In order to execute REST API calls, you can install [curl](https://curl.haxx.se/download.html) (preferred) or [PostMan](https://www.postman.com/downloads/).
+You will also need to install [Node.js](https://nodejs.org/en/download/). In order to execute REST API calls, you can install [PostMan](https://www.postman.com/downloads/) (preferred for the graphic interface) or [curl](https://curl.haxx.se/download.html) if you want a console tool.
 
 At this point, you are ready to start learning!
 
