@@ -22,6 +22,32 @@ Oracle provides Oracle Bots Node.js SDK, a free utility that makes custom compon
 
 ### Before you start
 
+We are going to install Node.js, if you have done this you can move ahead.
+
+[Download Node.js LTS](https://nodejs.org/en/) from the official website. It is fine if the version is higher than the one in the screenshot.
+
+![Node Dowload](../images/node_download.png)
+
+We are going to install on Windows but it works in a similar way in Linux and MacOS.
+
+![Node Install Start](../images/node_install_start.png)
+
+You can go with the default setup for the installation.
+
+Final step, click **Install**:
+
+![Node Install](../images/node_install.png)
+
+Installation completed
+
+![Node Install End](../images/node_install_end.png)
+
+The last step sometimes take a while on Windows because the lack of libraries, plus sometimes perform a Windows Update. Another reminder to swap to Linux ;) Be patient and carry on.
+
+![Node Native Modules Installation](../images/node_native_module.png)
+
+Check the installation when well. Open a Command Prompt, or Terminal in Linux and MacOS and run the following commands:
+
 ```bash
 node -v
 ```
@@ -34,9 +60,19 @@ npm -v
 npx @oracle/bots-node-sdk -v
 ```
 
+Like this:
+
+![Node Versions](../images/node_versions.png)
+
+Ready to create your Custom Component scaffolding:
+
+On the same terminal type:
+
 ```bash
 npx @oracle/bots-node-sdk init natter --component-name jokes
 ```
+
+Where `natter` is the name of the custom component module. And `jokes` is the name of our first custom component implementation.
 
 The result should look like this:
 
@@ -51,44 +87,40 @@ Usage:
   npm start    Start a dev server with the component package
 ```
 
-The new folder natter is created with this hierarchy:
+> NOTE:
+>
+> A new folder `natter` was created with this hierarchy inside:
+>
+> ![Custom Component thee](../images/node_tree.png)
+>
+> Note you have a `package.json` file and a `components` folder with a file `jokes.js` inside.
+>
 
-```bash
-natter/
-├── README.md
-├── components
-│   └── `jokes.js`
-├── main.js
-├── package-lock.json
-├── package.json
-└── spec
-    ├── test.cc.req.json
-    └── test.eh.req.json
-```
-
-> Note you should also have a `node_modules` folder with all the needed dependencies.
-
-Change directory to natter:
+Change directory to `natter` on the Command Prompt or Terminal:
 
 ```bash
 cd natter
 ```
 
-We are going to install some other dependencies we will need soon:
+This custom component is going to make REST API calls to fetch information from SODA. To do so, we need to install an extra library called [request](https://www.npmjs.com/package/request).
+
+Install the library with the following command:
 
 ```bash
 npm install request
 ```
 
-Good practice: Open the `package.json` file and change the name from `my-custom-component` to `natter`.
+Edit the file `package.json` in `natter` folder. You can use your favorite text editor. My choice is [Visual Code](https://code.visualstudio.com/) but feel free to use any. Even Notepad for those Windows user that don't want to install anything else.
 
-Let's take a look on `jokes.js` where we will work the most of the time:
+![Location package.json](../images/node_package_json.png)
 
-To avoid name conflicts, change the `name` property of the `metadata` function:
+We have to change the name of the package from the generic `my-custom-component` to something more personalized like `natter`. Check line number 2:
 
-```javascript
-   name: 'com.example.jokes',
-```
+![Package name change](../images/package_name_change.png)
+
+Great, we are now ready to change the code of our custom component implementation:
+
+Edit the file `jokes.js` and replace the whole content with the following code:
 
 ```javascript
 "use strict";
@@ -150,6 +182,10 @@ module.exports = {
 
 ```
 
+IMPORTANT:
+
+Remember to change the `<SODA_URL>` and `<ADMIN_PASSOWRD>` for the values as we have done in lab 2.
+
 ## Deploy the custom component
 
 Custom Components can be deployed in different ways:
@@ -158,25 +194,23 @@ Custom Components can be deployed in different ways:
 - Mobile Hub: multi-channel environment with mobile extras and shared instance deployment.
 - Node Container: shared instance but no need for mobile extras.
 
-Package your Custom Component
+We are going to install our custom component locally as a component container. Very simple, we need to pack our code in a single file that contains everything:
+
+Package your Custom Component by running on your Command Prompt or Terminal:
 
 ```bash
 npm pack
 ```
 
-The output should contain:
+The output looks like this:
 
-```bash
----------------------------------------------------------------------
-Component Package 'natter' is valid!
----------------------------------------------------------------------
-```
-
-And write a file called `natter-1.0.0.tgz`.
+![Pack result](../images/node_result.png)
 
 ## It works
 
-**XXX**
+There will be a new file in your `natter` folder called `natter-1.0.0.tgz`.
+
+![tgz new file](../images/node_tgz_file.png)
 
 Congratulations! You are ready to go to the next Lab!
 
