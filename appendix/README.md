@@ -15,6 +15,8 @@ Learn Kubernetes with [Oracle Kubernetes Engine](https://github.com/vmleon/OKE-f
 
 Learn about HTTP security with [Oracle Cloud Web Application Firewall](https://github.com/vmleon/Oracle-WAF-Demo) (Workshop)
 
+Check [Oracle Tech Exchange](https://fnimphiu.github.io/OracleTechExchange/) contains a lot of short tutorials about Oracle Digital Assistant
+
 ---
 
 ## Troubleshooting
