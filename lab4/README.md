@@ -136,19 +136,21 @@ const authString = `${username}:${password}`;
 function getTasks(urlRequest, logger, callback) {
   logger.info(urlRequest);
   fetch(urlRequest)
-    .then((res) => res.json())
-    .then((json) => {
-      if (res.statusCode !== 200) {
-        logger.error(`Invalid status ${res.statusCode}`);
-        callback(`Invalid status ${res.statusCode}`);
-        return;
+    .then((res) => {
+      if (!res.ok) {
+        const errorMessage = `Invalid status ${res.status}`;
+        logger.error(errorMessage);
+        callback(errorMessage);
+        throw new Error(errorMessage);
       }
+      return res.json();
+    })
+    .then((body) => {
       callback(null, body.items);
     })
     .catch((err) => {
       logger.error(err.message);
       callback(err.message);
-      return;
     });
 }
 
@@ -167,10 +169,7 @@ module.exports = {
       }
       const values = items.map((item) => item.value);
       const tasks = values.map((v) => v.text);
-      conversation
-        .reply("Greetings hooman! ")
-        .reply(tasks.join("\n"))
-        .transition("success");
+      conversation.reply(tasks.join("\n")).transition("success");
       done();
     });
   },
