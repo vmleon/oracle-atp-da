@@ -1,0 +1,23 @@
+{
+  "name": "tasks-cc",
+  "version": "1.0.0",
+  "description": "Oracle Bots Custom Component Package",
+  "main": "main.js",
+  "scripts": {
+    "bots-node-sdk": "bots-node-sdk",
+    "help": "npm run bots-node-sdk -- --help",
+    "prepack": "npm run bots-node-sdk -- pack --dry-run",
+    "start": "npm run bots-node-sdk -- service ."
+  },
+  "repository": {},
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@oracle/bots-node-sdk": "^2.3.4",
+    "express": "^4.16.3"
+  },
+  "bundledDependencies": [
+    "node-fetch"
+  ]
+}

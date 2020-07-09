@@ -69,117 +69,112 @@ Ready to create your Custom Component scaffolding:
 On the same terminal type:
 
 ```bash
-npx @oracle/bots-node-sdk init natter --component-name jokes
+npx @oracle/bots-node-sdk init tasks-cc --component-name tasks
 ```
 
-Where `natter` is the name of the custom component module. And `jokes` is the name of our first custom component implementation.
+Where `tasks-cc` is the name of the custom component module. And `tasks` is the name of our first custom component implementation.
 
 The result should look like this:
 
 ```bash
 ---------------------------------------------------------------------
-Custom Component package 'natter' created successfully!
+Custom Component package 'tasks-cc' created successfully!
 ---------------------------------------------------------------------
 
 Usage:
 
-  cd natter
+  cd tasks-cc
   npm start    Start a dev server with the component package
 ```
 
 > NOTE:
 >
-> A new folder `natter` was created with this hierarchy inside:
+> A new folder `tasks-cc` was created with this hierarchy inside:
 >
 > ![Custom Component thee](../images/node_tree.png)
 >
-> Note you have a `package.json` file and a `components` folder with a file `jokes.js` inside.
->
+> Note you have a `package.json` file and a `components` folder with a file `tasks.js` inside.
 
-Change directory to `natter` on the Command Prompt or Terminal:
+Change directory to `tasks-cc` on the Command Prompt or Terminal:
 
 ```bash
-cd natter
+cd tasks-cc
 ```
 
-This custom component is going to make REST API calls to fetch information from SODA. To do so, we need to install an extra library called [request](https://www.npmjs.com/package/request).
+This custom component is going to make REST API calls to fetch information from SODA. To do so, we need to install an extra library called [node-fetch](https://www.npmjs.com/package/node-fetch).
 
 Install the library with the following command:
 
 ```bash
-npm install request
+npm install node-fetch
 ```
 
-Edit the file `package.json` in `natter` folder. You can use your favorite text editor. My choice is [Visual Code](https://code.visualstudio.com/) but feel free to use any. Even Notepad for those Windows user that don't want to install anything else.
+Edit the file `package.json` in `tasks-cc` folder. You can use your favorite text editor. My choice is [Visual Code](https://code.visualstudio.com/) but feel free to use any. Even Notepad for those Windows user that don't want to install anything else.
 
 ![Location package.json](../images/node_package_json.png)
 
-We have to change the name of the package from the generic `my-custom-component` to something more personalized like `natter`. Check line number 2:
+We have to change the name of the package from the generic `my-custom-component` to something more personalized like `tasks-cc`. Check line number 2:
 
 ![Package name change](../images/package_name_change.png)
 
 Great, we are now ready to change the code of our custom component implementation:
 
-Edit the file `jokes.js` and replace the whole content with the following code:
+Edit the file `tasks.js` and replace the whole content with the following code:
 
 ```javascript
 "use strict";
 
-const request = require("request");
+const fetch = require("node-fetch");
 
 const ordsURL = "<SODA_URL>/ords";
-const collection = "jokes";
+const collection = "tasks";
 
 const username = "ADMIN";
 const password = "<ADMIN_PASSOWRD>";
 const authString = `${username}:${password}`;
 
-function getJokes(urlRequest, logger, callback) {
+function getTasks(urlRequest, logger, callback) {
   logger.info(urlRequest);
-  try {
-    request(urlRequest, { json: true }, (err, res, body) => {
-      if (err) {
-        logger.error(err.message);
-        callback(err.message);
-        return;
-      }
+  fetch(urlRequest)
+    .then((res) => res.json())
+    .then((json) => {
       if (res.statusCode !== 200) {
         logger.error(`Invalid status ${res.statusCode}`);
         callback(`Invalid status ${res.statusCode}`);
         return;
       }
       callback(null, body.items);
+    })
+    .catch((err) => {
+      logger.error(err.message);
+      callback(err.message);
+      return;
     });
-  } catch (error) {
-    logger.error(err.message);
-    callback(error);
-  }
 }
 
 module.exports = {
   metadata: () => ({
-    name: "com.example.jokes",
+    name: "com.example.tasks",
     supportedActions: ["success", "failure"],
   }),
   invoke: (conversation, done) => {
     const urlRequest = `https://${authString}@${ordsURL}/${username.toLowerCase()}/soda/latest/${collection}`;
-    getJokes(urlRequest, conversation.logger(), (err, items) => {
+    getTasks(urlRequest, conversation.logger(), (err, items) => {
       if (err) {
         conversation.transition("failure");
         done();
         return;
       }
       const values = items.map((item) => item.value);
-      const jokes = values.map((v) => v.text);
+      const tasks = values.map((v) => v.text);
       conversation
         .reply("Greetings hooman! ")
-        .reply(jokes.join("\n"))
+        .reply(tasks.join("\n"))
         .transition("success");
       done();
     });
   },
 };
-
 ```
 
 IMPORTANT:
@@ -208,7 +203,7 @@ The output looks like this:
 
 ## It works
 
-There will be a new file in your `natter` folder called `natter-1.0.0.tgz`.
+There will be a new file in your `tasks-cc` folder called `tasks-cc-1.0.0.tgz`.
 
 ![tgz new file](../images/node_tgz_file.png)
 
