@@ -180,6 +180,16 @@ IMPORTANT:
 
 Remember to change the `<SODA_URL>` and `<ADMIN_PASSOWRD>` for the values as we have done in lab 2.
 
+It should look like this:
+
+```javascript
+  5 const ordsURL = "GFHWWOU5XPCXAQ-ATPWORKSHOP.adb.uk-london-1.oraclecloudapps.com/ords";
+  6 const collection = "tasks";
+  7
+  8 const username = "ADMIN";
+  9 const password = "Str0ngP4$$w0rd!";
+```
+
 ## Deploy the custom component
 
 Custom Components can be deployed in different ways:

@@ -1,10 +1,18 @@
 # Lab 5: Create Digital Assistant Skill
 
-**XXX** Intro
+Digital assistants consist of one or more skills, which are individual chat bots that are focused on specific types of tasks.
+
+You will create a skill that can be used for interactions with a backend service, using the Custom Component you built on previous lab.
+
+As part of this process, you will:
+
+- Create a new skill
+- Import your Custom Component (the `tgz` file you generated with `npm pack`)
+- Create two intents: `Greeting` and `ListTasks`
 
 ## Build your first Skill
 
-**XXX** Create Skill
+In this lab, we're starting from scratch. So the first thing you'll do is create a new skill.
 
 Click on `+ New Skill` button to start:
 
@@ -16,7 +24,9 @@ Fill the information like in the image and click `Create` button:
 
 ---
 
-Import Custom component is very simple.
+## Import the Custom Component
+
+Import Custom Component is very simple.
 
 Go to the Components view ![Components](../images/components-icon.png) on the left menu
 
@@ -44,9 +54,29 @@ Make sure the `Status` is `Ready` and you see all the information like in this s
 
 ---
 
-**XXX** Create Greeting intent
+## Create intents
 
-**XXX** Create ListTasks intent
+Oracle Digital Assistant's underlying natural language processing (NLP) engine doesn't inherently know about the business or task that a skill is supposed to assist with. For the skill to understand what it should react to, you need to define intents and examples (utterances) for how a user would request a specific intent.
+
+Create Greeting intent, click on `+ Intent` button
+
+![Intent Create](../images/intents_1.png)
+
+Modify default values
+
+![Intent Default values](../images/intents_2.png)
+
+For `Greeting` intent
+
+![Intent Greeting](../images/intents_3.png)
+
+Click on `+ Intent` on the same screen
+
+![Intent Create](../images/intents_4.png)
+
+Modify default values for `ListTasks` intent
+
+![Intent default](../images/intents_5.png)
 
 ## Put everything together
 
@@ -56,7 +86,15 @@ On the left menu, you will find the Flows entry with this icon:
 
 ![Flows](../images/flows-menu-item.png)
 
-Delete the initial content and replace it with:
+You will see the `YAML` file that define the behaviour of your Skill
+
+![Flows 1](../images/flows_1.png)
+
+Delete the initial content
+
+![Flows 2](../images/flows_2.png)
+
+Replace it with:
 
 ```yaml
 metadata:
@@ -125,27 +163,25 @@ states:
 
 **XXX** Explain every part of the Flows definition
 
-**XXX** Validate
+It should look like
 
-**XXX** Train
+![Flows 3](../images/flows_3.png)
 
-**XXX** Test
+Make sure all the syntaxis is correct on the flow by clicking `Validate` button
+
+![Flows 4](../images/flows_4.png)
+
+Click `Train` button to run the machine learning algorithm
+
+![Flows 5](../images/flows_5.png)
+
+Wait for the confirmation
+
+![Flows 6](../images/flows_6.png)
 
 Run the test of the skill:
 
-![Test](../images/test_1.png)
-
-Say `Hi` and wait for the response:
-
-![Say Hi](../images/test_2.png)
-
-Say `List my tasks` and wait:
-
-![Ask for tasks](../images/test_3.png)
-
-The list of tasks will be replied from the bot:
-
-![Response](../images/test_4.png)
+![Test](../images/tests_chat.gif)
 
 > NOTE:
 >
@@ -159,9 +195,40 @@ The list of tasks will be replied from the bot:
 
 ## It works
 
-**XXX** Insert another entry and test again.
+To see how we request against the database we can add a new item:
 
-Congratulations! You are ready to go to the next Lab!
+Insert your third element in the collection by:
+
+<details>
+    <summary>cURL user, instead of Postman?</summary>
+    <p>
+        curl -XPOST -u 'ADMIN:<ADMIN_PASSWORD>' --data '{"text": "Like this project on Github"}' '<SODA_URL>/admin/soda/latest/tasks'
+    </p>
+</details>
+
+![Insert 1](../images/postman_insert_1.png)
+
+with body request:
+
+```json
+{"text": "Like this project on Github"}
+```
+
+Run the chat again and reset the previous conversation
+
+![Final Test](../images/test_final_1.png)
+
+Type `show me my tasks`
+
+![Final Test](../images/test_final_2.png)
+
+Check the result
+
+![Final Test](../images/test_final_3.png)
+
+# Congratulations! Well done!
+
+Continue to the Appendix for more information!
 
 ---
 

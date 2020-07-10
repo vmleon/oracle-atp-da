@@ -64,6 +64,8 @@ At this point, you are ready to start learning!
 [Lab 5: Create Digital Assistant Skill](lab5/README.md)
 
 - Build your first Skill
+- Import the Custom Component
+- Create intents
 - Put everything together
 
 [Appendix](appendix/README.md)
