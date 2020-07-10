@@ -32,7 +32,7 @@ GRANT SODA_APP TO admin;
 
 ## Use the REST API
 
-We are going to work with collections that in our case will contain the jokes.
+We are going to work with collections that in our case will contain the tasks.
 
 To have access to the SODA REST API, we need to know the endpoint URL of the service. Go to your **Autonomous Transaction Processing** database, in the **Service Console** there is a **Development** section where you can find **RESTful Services and SODA**, copy the URL and save it for later.
 
@@ -54,12 +54,12 @@ After a few seconds, we will have Postman up and running:
 
 ### Create the collection
 
-Create `jokes` collection with `Postman` by creating a new tab and set the following information:
+Create `tasks` collection with `Postman` by creating a new tab and set the following information:
 
 ![PUT request](../images/postman_create_collection.png)
 
 - `PUT` as method
-- SODA URL from the service console (we copy that URL in a previous step). Something like `https://xxxxxxxxxx.adb.yyyyyyyyyyy.oraclecloudapps.com/ords/admin/soda/latest/jokes`
+- SODA URL from the service console (we copy that URL in a previous step). Something like `https://xxxxxxxxxx.adb.yyyyyyyyyyy.oraclecloudapps.com/ords/admin/soda/latest/tasks`
 - In Authorization you have to set TYPE as `Basic Auth`
 - Username is `ADMIN` and password is the password you set when creating your Autonomous Database.
 
@@ -105,7 +105,7 @@ Look at the shape of the table behind SODA.
 Go to **SQL Developer Web** and run:
 
 ```sql
-DESCRIBE JOKES;
+DESCRIBE tasks;
 ```
 
 ![Describe table](../images/describe.png)
@@ -130,12 +130,12 @@ JSON_DOCUMENT          BLOB
 > - **VERSION**: The current version of SODA adopts an optimistic locking strategy to versioning documents.
 > - **JSON_DOCUMENT**: The JSON document content created.
 
-Check the content of the table `jokes`.
+Check the content of the table `tasks`.
 
 On **SQL Developer Web** run the following statement:
 
 ```sql
-SELECT * FROM JOKES;
+SELECT * FROM tasks;
 ```
 
 ![Select](../images/select.png)
