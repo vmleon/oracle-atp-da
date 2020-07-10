@@ -56,6 +56,13 @@ After a few seconds, we will have Postman up and running:
 
 Create `tasks` collection with `Postman` by creating a new tab and set the following information:
 
+<details>
+    <summary>cURL user, instead of Postman?</summary>
+    <p>
+        curl -XPUT -u 'ADMIN:<ADMIN_PASSWORD>' '<SODA_URL>/admin/soda/latest/tasks'
+    </p>
+</details>
+
 ![PUT request](../images/postman_create_collection.png)
 
 - `PUT` as method
@@ -63,7 +70,7 @@ Create `tasks` collection with `Postman` by creating a new tab and set the follo
 - In Authorization you have to set TYPE as `Basic Auth`
 - Username is `ADMIN` and password is the password you set when creating your Autonomous Database.
 
-Click on Send (blue button) on Postman and wait for the response. Confirm you got a Status 201 Created:
+Click on `Send` (blue button) on Postman and wait for the response. Confirm you got a Status 201 Created:
 
 ![Status 201 Collection created](../images/postman_collection_201.png)
 
@@ -77,12 +84,19 @@ Click on Send (blue button) on Postman and wait for the response. Confirm you go
 
 Insert your first element in the collection by:
 
+<details>
+    <summary>cURL user, instead of Postman?</summary>
+    <p>
+        curl -XPOST -u 'ADMIN:<ADMIN_PASSWORD>' --data '{"text": "Buy the milk"}' '<SODA_URL>/admin/soda/latest/tasks'
+    </p>
+</details>
+
 ![Insert 1](../images/postman_insert_1.png)
 
 with body request:
 
 ```json
-{"text": "Never trust atoms; they make up everything."}
+{"text": "Buy the milk"}
 ```
 Insert your second element in the collection by:
 
@@ -91,7 +105,7 @@ Insert your second element in the collection by:
 with body request:
 
 ```json
-{"text": "My wife told me to stop impersonating a flamingo. I had to put my foot down."}
+{"text": "Walk the dog"}
 ```
 
 In both cases, the response should be a `201 Created`:
