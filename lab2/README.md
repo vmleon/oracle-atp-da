@@ -146,4 +146,4 @@ Congratulations! You are ready to go to the next Lab!
 
 ---
 
-[**<< Prev**](../lab1/README.md) | [home](../README.md) | [**NEXT >>>>>**](../lab3/README.md)
+[**<< Go to Lab 1**](../lab1/README.md) | [home](../README.md) | [**Go to Lab 3 >>>>>**](../lab3/README.md)

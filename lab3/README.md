@@ -81,4 +81,4 @@ Congratulations! You are ready to go to the next Lab!
 
 ---
 
-[**<< Prev**](../lab2/README.md) | [home](../README.md) | [**NEXT >>>>>**](../lab4/README.md)
+[**<< Go to Lab 2**](../lab2/README.md) | [home](../README.md) | [**Go to Lab 4 >>>>>**](../lab4/README.md)

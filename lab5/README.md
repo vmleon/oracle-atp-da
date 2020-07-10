@@ -165,4 +165,4 @@ Congratulations! You are ready to go to the next Lab!
 
 ---
 
-[**<< Prev**](../lab4/README.md) | [home](../README.md) | [**APPENDIX >>>>>**](../appendix/README.md)
+[**<< Go to Lab 4**](../lab4/README.md) | [home](../README.md) | [**Go to APPENDIX >>>>>**](../appendix/README.md)
