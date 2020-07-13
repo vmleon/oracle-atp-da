@@ -220,4 +220,4 @@ Congratulations! You are ready to go to the next Lab!
 
 ---
 
-[**<< go to Lab 3**](../lab3/README.md) | [home](../README.md) | [**Go to Lab 5 >>>>>**](../lab5/README.md)
+[**<< Go to Lab 3**](../lab3/README.md) | [home](../README.md) | [**Go to Lab 5 >>>>>**](../lab5/README.md)
