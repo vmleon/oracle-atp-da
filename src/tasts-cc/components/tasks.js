@@ -2,11 +2,12 @@
 
 const fetch = require("node-fetch");
 
-const ordsURL = "<SODA_URL>/ords";
+const ordsURL =
+  "CLWQPWIW5XHCXUQ-APEXWORKSHOP.adb.uk-london-1.oraclecloudapps.com/ords";
 const collection = "tasks";
 
 const username = "ADMIN";
-const password = "<ADMIN_PASSOWRD>";
+const password = "WelcomeAmigo123!";
 const authString = `${username}:${password}`;
 
 function getTasks(urlRequest, logger, callback) {
