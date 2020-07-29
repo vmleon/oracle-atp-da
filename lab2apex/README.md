@@ -4,11 +4,9 @@
 
 Each Autonomous Database instance includes Oracle REST Data Services (ORDS) and Simple Object Data Access (SODA) that provides HTTPS interfaces for working with the contents of your Oracle Database in REST enabled schemas.
 
-## Oracle REST Data Services (ORDS)
-
 ![ORDS](../images/ords.png)
 
-In this lab you will create a tasks table, REST enabling it, and make the service available for the Custom Component. Normally, you would REST enable database objects in a remote database schema, and then utilize those REST endpoints to define Web Source modules in an application, where APEX is installed, within the local database, as outlined below.
+In this lab you will create a `tasks` table, REST enabling it, and make the service available for the Custom Component. Normally, you would REST enable database objects in a remote database schema, and then utilize those REST endpoints to define Web Source modules in an application, where APEX is installed, within the local database, as outlined below.
 
 ![ORDS and APEX](../images/rest_arch.png)
 
@@ -16,7 +14,9 @@ In this lab you will create a tasks table, REST enabling it, and make the servic
 
 TODO
 
-## Create a Table
+## Create a Table with Quick SQL
+
+TODO intro to Quick SQL
 
 Go to Quick SQL
 
