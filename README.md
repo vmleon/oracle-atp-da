@@ -46,9 +46,11 @@ At this point, you are ready to start learning!
 - Create your Autonomous Database
 - Quick walk-through
 
-[Lab 2: Create Application and REST API](lab2/README.md)
+[Lab 2: Create APEX workshop and REST API](lab2apex/README.md)
 
-- Simple Object Data Access (SODA)
+- Create APEX Workspace
+- Create a Table with Quick SQL
+- REST Enabling the Database Object
 - Use the REST API
 
 [Lab 3: Create Oracle Digital Assistant](lab3/README.md)
