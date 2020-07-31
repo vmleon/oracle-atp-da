@@ -4,7 +4,7 @@
 
 ## Conversational approach to your applications
 
-This workshop walks you through the steps to use Autonomous Database as a NoSQL repository, offer a REST API to integrate with and enable you to interact with your customers by keeping a conversation with Digital Assistant.
+This workshop walks you through the steps to use Autonomous Database and Application Express (APEX) to store information, offer a REST API with Oracle REST Data Services (ORDS) and enable you to interact with your customers by keeping a conversation with Digital Assistant.
 
 ## Who Should Do This Workshop
 
@@ -12,7 +12,7 @@ You want to **store information in a easy and powerful database** and provide **
 
 You want to **learn Oracle Digital Assistant**.
 
-You are also interested in exploring modern ways to store information like **NoSQL** technologies and build **secure and powerful REST APIs**.
+You are also interested in exploring modern and quick **APEX** development and build **secure and powerful REST APIs**.
 
 ## Requirements
 
@@ -46,9 +46,11 @@ At this point, you are ready to start learning!
 - Create your Autonomous Database
 - Quick walk-through
 
-[Lab 2: Create Application and REST API](lab2/README.md)
+[Lab 2: Create APEX workshop and REST API](lab2apex/README.md)
 
-- Simple Object Data Access (SODA)
+- Create APEX Workspace
+- Create a Table with Quick SQL
+- REST Enabling the Database Object
 - Use the REST API
 
 [Lab 3: Create Oracle Digital Assistant](lab3/README.md)
