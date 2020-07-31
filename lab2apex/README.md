@@ -12,7 +12,14 @@ In this lab you will create a `tasks` table, REST enabling it, and make the serv
 
 ## Create APEX Workspace
 
-TODO
+In this part of the lab we are creating an APEX workspace. We need to repare the APEX Workspace accesing to APEX Administration Services.
+![ORDS](../images/apex_workspace1.png)
+![ORDS](../images/apex_workspace2.png)
+![ORDS](../images/apex_workspace3.png)
+![ORDS](../images/apex_workspace4.png)
+![ORDS](../images/apex_workspace5.png)
+![ORDS](../images/apex_workspace6.png)
+![ORDS](../images/apex_workspace7.png)
 
 ## Create a Table with Quick SQL
 
