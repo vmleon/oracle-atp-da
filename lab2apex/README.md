@@ -12,13 +12,38 @@ In this lab you will create a `tasks` table, REST enabling it, and make the serv
 
 ## Create APEX Workspace
 
-In this part of the lab we are creating an APEX workspace. We need to repare the APEX Workspace accesing to APEX Administration Services.
+In this part of the lab we are creating an APEX workspace. From the Autonomous Database Home page go to Tools section and select Oracle Application Express area.
+
 ![ORDS](../images/apex_workspace1.png)
+
+This will open a new browser tab for Application Express Administration.
+Login as the Admin user, with the Admin password you specified at Autonomous Database creation time.
+
 ![ORDS](../images/apex_workspace2.png)
+
+Create the Lab Workspace
+On the Welcome to "Oracle Application Express" page, select Create Workspace.
+
 ![ORDS](../images/apex_workspace3.png)
+
+Use the following information to fill out the form:
+Database User: ATP_ODA
+Password: Any password that meets the Oracle Cloud requirements.
+Workspace Name: ATP_ODA
+Select Create Workspace.
+
 ![ORDS](../images/apex_workspace4.png)
+
+You will be returned to the Oracle APEX administration page, and a message will be displayed "Workspace Created".
+
+Sign in as the WORKSHOPATP user by selecting the icon on the centre of the screen where you can see the name of the user in blue.
+
 ![ORDS](../images/apex_workspace5.png)
+
 ![ORDS](../images/apex_workspace6.png)
+
+Now we are ready to create your APEX application on this workspace.
+
 ![ORDS](../images/apex_workspace7.png)
 
 ## Create a Table with Quick SQL
