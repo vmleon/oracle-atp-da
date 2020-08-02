@@ -17,7 +17,7 @@ In this part of the lab we are creating an APEX workspace. From the Autonomous D
 ![ORDS](../images/apex_workspace1.png)
 
 This will open a new browser tab for Application Express Administration.
-Login as the Admin user, with the Admin password you specified at Autonomous Database creation time.
+Login as the Admin user, with the **Admin** password you specified at Autonomous Database creation time.
 
 ![ORDS](../images/apex_workspace2.png)
 
@@ -27,9 +27,11 @@ On the Welcome to "Oracle Application Express" page, select **Create Workspace**
 ![ORDS](../images/apex_workspace3.png)
 
 Use the following information to fill out the form:
-**Database User**: ATP_ODA
-**Password**: Any password that meets the Oracle Cloud requirements.
-**Workspace Name**: ATP_ODA
+
+- **Database User**: ATP_ODA
+- **Password**: Any password that meets the Oracle Cloud requirements.
+- **Workspace Name**: ATP_ODA
+
 Select **Create Workspace**.
 
 ![ORDS](../images/apex_workspace4.png)
