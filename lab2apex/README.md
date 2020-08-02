@@ -55,7 +55,19 @@ You can check that you are correcty sign in with the **ATP_ODA** user in he righ
 
 ## Create a Table with Quick SQL
 
-TODO intro to Quick SQL
+Quick SQL reduces the time and effort required to create SQL tables, triggers, and index structures.
+
+It is not designed to be a replacement for data modeling. Quick SQL is simply a quick way to develop a script for simple tables and views.
+
+Once the SQL is generated it can be tweaked and expanded upon.
+
+Quick SQL provides a quick way to generate the SQL required to create a relational data model from an indented text document.
+
+Use Cases:
+
+- Quickly create robust data models
+- Easily generate random data
+- Learn SQL create table, select, insert, index, trigger, PL/SQL package, and view syntax using provided examples
 
 Go to Quick SQL
 
