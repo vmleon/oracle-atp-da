@@ -1,6 +1,6 @@
-# Oracle Autonomous Database and Digital Assistant
+# Oracle APEX and Digital Assistant
 
-![Oracle](images/oracle_small.png)
+![Oracle](images/logo_top.png)
 
 ## Conversational approach to your applications
 
