@@ -40,15 +40,18 @@ You will be returned to the Oracle APEX administration page, and a message will 
 
 ![ORDS](../images/apex_workspace5.png)
 
-Sign in as the **ATP_ODA** user by selecting the icon on the centre of the screen where you can see the name of the user in blue.
-
-![ORDS](../images/apex_workspace51.png)
+Sign in as the **ATP_ODA** user by selecting the icon on the centre of the screen where you can see the name of the user, **ATP_ODA**.
 
 ![ORDS](../images/apex_workspace6.png)
 
-Now we are ready to create your APEX application on this workspace.
+Add the **name of the worspace**, **user name** and **password**: **ATP_ODA** and click **Sing in**.
 
 ![ORDS](../images/apex_workspace7.png)
+
+Now we are ready to create your APEX application on this workspace.
+You can check that you are correcty sign in with the ATP_ODA user in he right up corner
+
+![ORDS](../images/apex_workspace8.png)
 
 ## Create a Table with Quick SQL
 
