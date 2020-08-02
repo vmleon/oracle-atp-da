@@ -49,7 +49,7 @@ Add the **name of the worspace**, **user name** and **password**: **ATP_ODA** an
 ![ORDS](../images/apex_workspace7.png)
 
 Now we are ready to create your APEX application on this workspace.
-You can check that you are correcty sign in with the **ATP_ODA** user in he right up corner
+You can check that you are correcty sign in with the **ATP_ODA** user in he right up corner.
 
 ![ORDS](../images/apex_workspace8.png)
 
