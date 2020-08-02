@@ -12,7 +12,7 @@ In this lab you will create a `tasks` table, REST enabling it, and make the serv
 
 ## Create APEX Workspace
 
-In this part of the lab we are creating an APEX workspace. From the Autonomous Database Home page go to Tools section and select Oracle Application Express area.
+In this part of the lab we are creating an APEX workspace. From the Autonomous Database Home page go to **Tools** section and select **Oracle Application Express** area.
 
 ![ORDS](../images/apex_workspace1.png)
 
@@ -22,23 +22,25 @@ Login as the Admin user, with the Admin password you specified at Autonomous Dat
 ![ORDS](../images/apex_workspace2.png)
 
 Create the Lab Workspace
-On the Welcome to "Oracle Application Express" page, select Create Workspace.
+On the Welcome to "Oracle Application Express" page, select **Create Workspace**.
 
 ![ORDS](../images/apex_workspace3.png)
 
 Use the following information to fill out the form:
-Database User: ATP_ODA
-Password: Any password that meets the Oracle Cloud requirements.
-Workspace Name: ATP_ODA
-Select Create Workspace.
+**Database User**: ATP_ODA
+**Password**: Any password that meets the Oracle Cloud requirements.
+**Workspace Name**: ATP_ODA
+Select **Create Workspace**.
 
 ![ORDS](../images/apex_workspace4.png)
 
-You will be returned to the Oracle APEX administration page, and a message will be displayed "Workspace Created".
-
-Sign in as the WORKSHOPATP user by selecting the icon on the centre of the screen where you can see the name of the user in blue.
+You will be returned to the Oracle APEX administration page, and a message will be displayed "**Workspace Created**".
 
 ![ORDS](../images/apex_workspace5.png)
+
+Sign in as the **ATP_ODA** user by selecting the icon on the centre of the screen where you can see the name of the user in blue.
+
+![ORDS](../images/apex_workspace51.png)
 
 ![ORDS](../images/apex_workspace6.png)
 
