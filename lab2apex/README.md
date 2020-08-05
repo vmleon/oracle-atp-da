@@ -21,8 +21,7 @@ Login as the Admin user, with the **Admin** password you specified at Autonomous
 
 ![ORDS](../images/apex_workspace2.png)
 
-Create the Lab Workspace
-On the Welcome to "Oracle Application Express" page, select **Create Workspace**.
+Create the Lab Workspace on the Welcome to "Oracle Application Express" page, select **Create Workspace**.
 
 ![ORDS](../images/apex_workspace3.png)
 
@@ -49,7 +48,7 @@ Add the **name of the worspace**, **user name** and **password**: **ATP_ODA** an
 ![ORDS](../images/apex_workspace7.png)
 
 Now we are ready to create your APEX application on this workspace.
-You can check that you are correcty sign in with the **ATP_ODA** user in the right up corner.
+You can check that you are correctly signed in with the **ATP_ODA** user in the right top corner.
 
 ![ORDS](../images/apex_workspace8.png)
 
