@@ -121,20 +121,6 @@ To have access to the SODA REST API, we need to know the endpoint URL of the ser
 
 ![SODA URL](../images/soda_url.png)
 
-We are going to need to install a REST API client. If you are familiar with `curl` go for it, but in this guided steps we are going to use [PostMan](https://www.postman.com/).
-
-Go to the [Postman Download](https://www.postman.com/downloads/) website page.
-
-![Download Postman](../images/postman_download.png)
-
-Run the downloaded file to install Postman.
-
-![Install Postman](../images/postman_install.png)
-
-After a few seconds, we will have Postman up and running:
-
-![Postman hello](../images/postman_hello.png)
-
 ### Create the collection
 
 Create `tasks` collection with `Postman` by creating a new tab and set the following information:
