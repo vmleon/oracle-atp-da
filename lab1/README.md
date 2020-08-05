@@ -6,7 +6,7 @@ This lab walks you through the steps to get started using the Oracle Autonomous 
 
 ## Create a new Autonomous Transaction Processing
 
-Go to the ATP menu:
+Go to the Autonomous Transaction Processing (ATP) menu:
 
 ![Menu ATP](./../images/menu_atp.png)
 
@@ -29,6 +29,11 @@ You can select **Always Free** configuration to start enjoying your Free Autonom
 CPU and Storage are good with default values, the same for the database version.
 
 Auto scaling you can leave it off but it is a nice feature as the ATP database will scale if the workload is increasing and scale down automatically if the workload reduces. Zero downtime during the process. It's cool, isn't it?
+
+Under the Create Adminisitratior credentials section, provide the **Administrator Password**. Enter any password you wish to use following the specific requirements imposed by ATP.
+
+> Reminder: Note your password in a safe location as this cannot be reset.
+
 
 ![ATP Creation](../images/atp_creation_2.png)
 
