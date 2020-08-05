@@ -19,50 +19,7 @@ You can package related custom components together.
 ## Create a Custom Component to integrate with backend services
 
 Oracle provides Oracle Bots Node.js SDK, a free utility that makes custom components development very easy.
-
-### Before you start
-
-We are going to install Node.js, if you have done this you can move ahead.
-
-[Download Node.js LTS](https://nodejs.org/en/) from the official website. It is fine if the version is higher than the one in the screenshot.
-
-![Node Dowload](../images/node_download.png)
-
-We are going to install on Windows but it works in a similar way in Linux and MacOS.
-
-![Node Install Start](../images/node_install_start.png)
-
-You can go with the default setup for the installation.
-
-Final step, click **Install**:
-
-![Node Install](../images/node_install.png)
-
-Installation completed
-
-![Node Install End](../images/node_install_end.png)
-
-The last step sometimes take a while on Windows because the lack of libraries, plus sometimes perform a Windows Update. Another reminder to swap to Linux ;) Be patient and carry on.
-
-![Node Native Modules Installation](../images/node_native_module.png)
-
-Check if the installation went well. Open a Command Prompt, or Terminal in Linux and MacOS and run the following commands:
-
-```bash
-node -v
-```
-
-```bash
-npm -v
-```
-
-```bash
-npx @oracle/bots-node-sdk -v
-```
-
-Like this:
-
-![Node Versions](../images/node_versions.png)
+We have explain the instalation steps in the Pre-requisites section at the very begining of this lab.
 
 Ready to create your Custom Component scaffolding:
 
