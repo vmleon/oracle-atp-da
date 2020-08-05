@@ -87,4 +87,4 @@ Congratulations, you are ready for the next Lab!
 
 ---
 
-[home](../README.md) | [**Go to Lab 2 >>>>>**](../lab2apex/README.README.md)
+[home](../README.md) | [**Go to Lab 2 >>>>>**](../lab2apex/README.md)
