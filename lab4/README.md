@@ -19,6 +19,7 @@ You can package related custom components together.
 ## Create a Custom Component to integrate with backend services
 
 Oracle provides Oracle Bots Node.js SDK, a free utility that makes custom components development very easy.
+
 We have explain the instalation steps in the Pre-requisites section at the very begining of this lab.
 
 Ready to create your Custom Component scaffolding:
