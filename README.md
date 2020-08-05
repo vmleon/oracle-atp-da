@@ -79,4 +79,4 @@ At this point, you are ready to start learning!
 
 ## Let's Get Started
 
-Create Application Express (APEX): [**Go To Lab 1!**](./lab1/README.md)
+Create Autonomous Database: [**Go To Lab 1!**](./lab1/README.md)
