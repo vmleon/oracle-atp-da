@@ -44,7 +44,7 @@ At the end of this process, you will receive an email titled "Get Started Now wi
 
 To login to your cloud account, use the same email address that you used for registration and the password provided in the email. You will be prompted to set a new, more memorable password.
 
-![Autonomous](../images/oracle_cloud_free_tier.png)
+![Autonomous](../images/oracle_cloud_free_tier4.png)
 
 
 ## It works
