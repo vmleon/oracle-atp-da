@@ -40,15 +40,31 @@ You will be prompted to enter the **Code** sent to your cell phone.
 
 ## Sign in to Your Account
 
-At the end of this process, you will receive an email titled "Get Started Now with Oracle **Cloud**". This will contain all the information you need to sign into your cloud account and include a link to the login page for your region.
+At the end of this process, you will receive an email titled "**Get Started Now with Oracle Cloud**". This will contain all the information you need to sign into your cloud account and include a link to the login page for your region.
 
 To login to your cloud account, use the same email address that you used for registration and the password provided in the email. You will be prompted to set a new, more memorable password.
 
 ![Autonomous](../images/oracle_cloud_free_tier4.png)
 
-You are now signed in to Oracle Cloud!
+Otherwise go to cloud.oracle.com.
 
 ![Autonomous](../images/oracle_cloud_free_tier5.png)
+
+Click View Accounts to bring up a menu. Click Sign in to Cloud.
+
+![Autonomous](../images/oracle_cloud_free_tier6.png)
+
+Enter your Cloud Account Name and click Next. This is the name you chose while creating your account in the previous section. It's NOT your email address. If you've forgotten the name, see the confirmation email.
+
+![Autonomous](../images/oracle_cloud_free_tier7.png)
+
+Enter your Cloud Account credentials and click Sign In. Your username is your email address. The password is what you chose when you signed up for an account.
+
+![Autonomous](../images/oracle_cloud_free_tier8.png)
+
+You are now signed in to Oracle Cloud!
+
+![Autonomous](../images/oracle_cloud_free_tier9.png)
 
 
 ## It works
