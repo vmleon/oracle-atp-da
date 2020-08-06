@@ -46,23 +46,23 @@ To login to your cloud account, use the same email address that you used for reg
 
 ![Autonomous](../images/oracle_cloud_free_tier4.png)
 
-Otherwise go to cloud.oracle.com.
+Otherwise go to [oracle.com](http://cloud.oracle.com).
 
 ![Autonomous](../images/oracle_cloud_free_tier5.png)
 
-Click View Accounts to bring up a menu. Click Sign in to Cloud.
+Click** View Accounts** to bring up a menu. Click **Sign in to Cloud**.
 
 ![Autonomous](../images/oracle_cloud_free_tier6.png)
 
-Enter your Cloud Account Name and click Next. This is the name you chose while creating your account in the previous section. It's NOT your email address. If you've forgotten the name, see the confirmation email.
+Enter your **Cloud Account Name** and click **Next**. This is the name you chose while creating your account in the previous section. It's NOT your email address. If you've forgotten the name, see the confirmation email.
 
 ![Autonomous](../images/oracle_cloud_free_tier7.png)
 
-Enter your Cloud Account credentials and click Sign In. Your username is your email address. The password is what you chose when you signed up for an account.
+Enter your **Cloud Account credentials** and click **Sign In**. Your username is your email address. The password is what you chose when you signed up for an account.
 
 ![Autonomous](../images/oracle_cloud_free_tier8.png)
 
-You are now signed in to Oracle Cloud!
+You are now signed in to **Oracle Cloud!**
 
 ![Autonomous](../images/oracle_cloud_free_tier9.png)
 
