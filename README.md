@@ -97,10 +97,15 @@ At this point, you are ready to start learning!
 
 ## Content
 
+[Lab 0: Sign Up fpr your Free Oracle Trial](lab0/README.md)
+
+- Create Your Free Trial Account
+- Sign in to Your Account
+  
 [Lab 1: Create Autonomous Database](lab1/README.md)
 
-- Create your Autonomous Database
-- Quick walk-through
+- Create Your Autonomous Database
+- Quick Walk-through
 
 [Lab 2: Create APEX workshop and REST API](lab2apex/README.md)
 
@@ -112,23 +117,23 @@ At this point, you are ready to start learning!
 [Lab 3: Create Oracle Digital Assistant](lab3/README.md)
 
 - Create a Digital Assistant instance
-- Explore your Digital Assistant
+- Explore Your Digital Assistant
 
 [Lab 4: Implement Custom Component](lab4/README.md)
 
-- Create a Custom Component to integrate with backend services
-- Deploy the custom component
+- Create a Custom Component to Integrate with Backend Services
+- Deploy the Custom Component
 
 [Lab 5: Create Digital Assistant Skill](lab5/README.md)
 
-- Build your first Skill
+- Build your First Skill
 - Import the Custom Component
-- Create intents
-- Put everything together
+- Create Intents
+- Put Everything Together
 
 [Appendix](appendix/README.md)
 
-- Want to learn more?
+- Want to Learn More?
 - Troubleshooting
 
 ---
