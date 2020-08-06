@@ -75,9 +75,13 @@ Go to Quick SQL
 Write on the left panel the following table definition
 
 ```bash
-tasks /insert 2
+tasks /rest
     text vc200
 ```
+
+> Notice that `/rest` generate REST enablement of the table using Oracle REST Data Services (ORDS)
+>
+> Simple!
 
 Click **Generate SQL**
 
@@ -111,7 +115,13 @@ Make sure all statements are successful and no errors happened
 
 In the main menu, select **SQL Workshop**, click **RESTful Services**.
 
-![](../images/apex_rest_services_menu.png)
+![REST Enable  Menu](../images/apex_rest_services_menu.png)
+
+![REST Enable Register](../images/apex_rest_enable_register.png)
+
+![REST Enable Save](../images/apex_rest_enable_save.png)
+
+![REST Enable Success](../images/apex_rest_enable_register_success.png)
 
 ## Use the REST API
 
