@@ -1,5 +1,7 @@
 # Lab 0: Sign Up for your Oracle Cloud Free Tier
 
+![Oracle Cloud Free Tier Banner](../images/oracle_cloud_free_tier0.png)
+
 During this short lab, we will create, sign in and walk through the steps of setting up an Oracle Cloud Free Tier account.
 
 ## Create Your Free Trial Account
