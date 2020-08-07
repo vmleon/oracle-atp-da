@@ -14,6 +14,49 @@ You want to **learn Oracle Digital Assistant**.
 
 You are also interested in exploring modern and quick **APEX** development and build **secure and powerful REST APIs**.
 
+## Content
+
+[Lab 0: Sign Up for your Oracle Cloud Free Tier](lab0/README.md)
+
+- Create Your Free Trial Account
+- Sign in to Your Account
+  
+[Lab 1: Create Autonomous Database](lab1/README.md)
+
+- Create Your Autonomous Database
+- Quick Walk-through
+
+[Lab 2: Create APEX workshop and REST API](lab2apex/README.md)
+
+- Create APEX Workspace
+- Create a Table with Quick SQL
+- REST Enabling the Database Object
+- Use the REST API
+
+[Lab 3: Create Oracle Digital Assistant](lab3/README.md)
+
+- Create a Digital Assistant instance
+- Explore Your Digital Assistant
+
+[Lab 4: Implement Custom Component](lab4/README.md)
+
+- Create a Custom Component to Integrate with Backend Services
+- Deploy the Custom Component
+
+[Lab 5: Create Digital Assistant Skill](lab5/README.md)
+
+- Build your First Skill
+- Import the Custom Component
+- Create Intents
+- Put Everything Together
+
+[Appendix](appendix/README.md)
+
+- Want to Learn More?
+- Troubleshooting
+
+---
+
 ## Requirements
 
 In order to walk through this workshop you need an **active Oracle Cloud Account**. If you don't have one:
@@ -75,49 +118,6 @@ Like this:
 ![Node Versions](./images/node_versions.png)
 
 At this point, you are ready to start learning!
-
----
-
-## Content
-
-[Lab 0: Sign Up for your Oracle Cloud Free Tier](lab0/README.md)
-
-- Create Your Free Trial Account
-- Sign in to Your Account
-  
-[Lab 1: Create Autonomous Database](lab1/README.md)
-
-- Create Your Autonomous Database
-- Quick Walk-through
-
-[Lab 2: Create APEX workshop and REST API](lab2apex/README.md)
-
-- Create APEX Workspace
-- Create a Table with Quick SQL
-- REST Enabling the Database Object
-- Use the REST API
-
-[Lab 3: Create Oracle Digital Assistant](lab3/README.md)
-
-- Create a Digital Assistant instance
-- Explore Your Digital Assistant
-
-[Lab 4: Implement Custom Component](lab4/README.md)
-
-- Create a Custom Component to Integrate with Backend Services
-- Deploy the Custom Component
-
-[Lab 5: Create Digital Assistant Skill](lab5/README.md)
-
-- Build your First Skill
-- Import the Custom Component
-- Create Intents
-- Put Everything Together
-
-[Appendix](appendix/README.md)
-
-- Want to Learn More?
-- Troubleshooting
 
 ---
 
