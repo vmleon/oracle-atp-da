@@ -55,8 +55,6 @@ You are also interested in exploring modern and quick **APEX** development and b
 - Want to Learn More?
 - Troubleshooting
 
----
-
 ## Requirements
 
 In order to walk through this workshop you need an **active Oracle Cloud Account**. If you don't have one:
