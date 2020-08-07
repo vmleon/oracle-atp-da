@@ -57,21 +57,7 @@ You are also interested in exploring modern and quick **APEX** development and b
 
 ## Requirements
 
-In order to walk through this workshop you need an **active Oracle Cloud Account**. If you don't have one:
-
-[>> Please Sign-Up a Free Tier Oracle Cloud account <<](http://bit.ly/34TzwGf)
-
-> It takes few minutes to fully-provision your account.
-
-After you log-in in your Oracle Cloud Account, you should see the web console, like this:
-
-![Oracle Cloud Web Console](./images/webconsole.png)
-
-You will also need to install:
-
-- To develop the integration with REST API we need [Node.js](https://nodejs.org/en/download/).
-
-## Instalation of Node.js
+In order to walk through this workshop you need to develop the integration with REST API. You need [Node.js](https://nodejs.org/en/download/).
 
 We are going to install Node.js, if you have done this you can move ahead.
 
@@ -89,7 +75,7 @@ Final step, click **Install**:
 
 ![Node Install](./images/node_install.png)
 
-Installation completed
+Installation completed.
 
 ![Node Install End](./images/node_install_end.png)
 

@@ -50,7 +50,6 @@ Look around the details and get familiar with the buttons and tabs on this page.
 
 ![ATP Details](../images/atp_details.png)
 
-
 ## It works
 
 You just created an Autonomous Database with the latest features of Oracle Databases.
