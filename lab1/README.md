@@ -1,6 +1,6 @@
 # Lab 1: Create Autonomous Database
 
-![Autonomous](../images/adb_banner.jpg)
+![Autonomous](../images/adb_banner.png)
 
 This lab walks you through the steps to get started using the Oracle Autonomous Transaction Processing Database on Oracle Cloud Infrastructure (OCI). You will provision a new database in just few minutes.
 
