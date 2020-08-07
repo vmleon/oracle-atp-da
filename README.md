@@ -1,6 +1,6 @@
 # Oracle APEX and Digital Assistant
 
-![Oracle](images/logo_top.png)
+![Oracle](images/banner.png)
 
 ## Conversational Approach to Your Applications
 
