@@ -97,7 +97,7 @@ At this point, you are ready to start learning!
 
 ## Content
 
-[Lab 0: Sign Up fpr your Free Oracle Trial](lab0/README.md)
+[Lab 0: Sign Up for your Oracle Cloud Free Tier](lab0/README.md)
 
 - Create Your Free Trial Account
 - Sign in to Your Account
