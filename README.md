@@ -26,7 +26,7 @@ You are also interested in exploring modern and quick **APEX** development and b
 - Create Your Autonomous Database
 - Quick Walk-through
 
-[Lab 2: Create APEX workshop and REST API](lab2apex/README.md)
+[Lab 2: Create APEX workshop and REST API](lab2/README.md)
 
 - Create APEX Workspace
 - Create a Table with Quick SQL
