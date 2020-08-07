@@ -1,4 +1,4 @@
-# Lab 0: Sign Up for your Oracle Cloud Free Tier
+# Get Started: Sign Up for your Oracle Cloud Free Tier
 
 ![Oracle Cloud Free Tier Banner](../images/oracle_cloud_free_tier0.png)
 
@@ -15,8 +15,7 @@ What's included with **Oracle Cloud Free Tier**?
 **Always Free** and **Free Trial** instances can be seamlessly upgraded to pay at any time. Existing Oracle Cloud customers have access to Always Free services automatically—no new sign up required.
 
 To learn more about Oracle Cloud Always Free and Free Trial account check the following link:
-https://www.oracle.com/cloud/free/#always-free
-
+[https://www.oracle.com/cloud/free/#always-free](https://www.oracle.com/cloud/free/#always-free)
 
 As part of your sign up to this lab, you will have been provided a link to sign up to Oracle Cloud Free Tier. Please make sure you:
 
@@ -26,7 +25,6 @@ As part of your sign up to this lab, you will have been provided a link to sign 
 On the sign up page, enter your **email address**, select your **Country/Territory** and click "**Next**".
 
 ![Sign Up Page](../images/oracle_cloud_free_tier1.png)
-
 
 On the "**Enter Account Details**" page you will be asked for **Account Type**, please select **Company Use** or **Personal Use** considering the purpose of this cloud account.
 You will also be asked for the **Cloud Account Name** (also known as **Tenancy Name**). This will uniquely identify your cloud account and will be visible in your URL later, so please choose wisely.
@@ -52,7 +50,7 @@ Otherwise go to [oracle.com](http://cloud.oracle.com).
 
 ![Autonomous](../images/oracle_cloud_free_tier5.png)
 
-Click** View Accounts** to bring up a menu. Click **Sign in to Cloud**.
+Click **View Accounts** to bring up a menu. Click **Sign in to Cloud**.
 
 ![Oracle Page](../images/oracle_cloud_free_tier6.png)
 
@@ -67,8 +65,6 @@ Enter your **Cloud Account credentials** and click **Sign In**. Your username is
 You are now signed in to **Oracle Cloud!**
 
 ![Oracle Cloud Web Console](../images/webconsole.png)
-
-
 
 ## It works
 

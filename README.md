@@ -16,7 +16,7 @@ You are also interested in exploring modern and quick **APEX** development and b
 
 ## Content
 
-[Lab 0: Sign Up for your Oracle Cloud Free Tier](lab0/README.md)
+[Get Started: Sign Up for your Oracle Cloud Free Tier](lab0/README.md)
 
 - Create Your Free Trial Account
 - Sign in to Your Account
