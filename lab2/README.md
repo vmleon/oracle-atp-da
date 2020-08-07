@@ -2,6 +2,12 @@
 
 ![APEX](../images/apex.png)
 
+As part of Autonomous Database you will have Oracle Application Express (APEX).
+
+APEX is a low-code development platform that enables you to build scalable, secure enterprise apps, with world-class features, that can be deployed anywhere.
+
+Using APEX, developers can quickly develop and deploy compelling apps that solve real problems and provide immediate value. You won't need to be an expert in a vast array of technologies to deliver sophisticated solutions. Focus on solving the problem and let APEX take care of the rest.
+
 Each Autonomous Database instance includes Oracle REST Data Services (ORDS) and Simple Object Data Access (SODA) that provides HTTPS interfaces for working with the contents of your Oracle Database in REST enabled schemas.
 
 ![ORDS](../images/ords.png)
