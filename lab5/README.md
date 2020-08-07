@@ -231,4 +231,4 @@ Continue to the Appendix for more information!
 
 ---
 
-[**<< Go to Lab 4**](../lab4/README.md) | [home](../README.md) | [**Go to APPENDIX >>>>>**](../appendix/README.md)
+[**<< Go to Lab 4**](../lab4/README.md) | [Home](../README.md) | [**Go to APPENDIX >>>>>**](../appendix/README.md)

@@ -107,4 +107,4 @@ At this point, you are ready to start learning!
 
 ## Let's Get Started
 
-Create Autonomous Database: [**Go To Lab 1!**](./lab1/README.md)
+Sign Up for your Oracle Cloud Free Tier to [**Get Started!**](./lab0/README.md)

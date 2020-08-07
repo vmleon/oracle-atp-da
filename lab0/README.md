@@ -76,4 +76,4 @@ Congratulations, you are ready for the next Lab!
 
 ---
 
-[home](../README.md) | [**Go to Lab 1 >>>>>**](../lab1/README.md)
+[Home](../README.md) | [**Go to Lab 1 >>>>>**](../lab1/README.md)
