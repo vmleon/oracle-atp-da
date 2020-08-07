@@ -29,7 +29,6 @@ After you log-in in your Oracle Cloud Account, you should see the web console, l
 You will also need to install:
 
 - To develop the integration with REST API we need [Node.js](https://nodejs.org/en/download/).
-- To execute REST API calls, you can install [PostMan](https://www.postman.com/downloads/) (preferred for the graphic interface users) or [curl](https://curl.haxx.se/download.html) if you want a console tool.
 
 ## Instalation of Node.js
 
@@ -74,22 +73,6 @@ npx @oracle/bots-node-sdk -v
 Like this:
 
 ![Node Versions](./images/node_versions.png)
-
-## Instalation of PostMan
-
-We are going to need to install a REST API client. If you are familiar with `curl` go for it, but in this guided steps we are going to use [PostMan](https://www.postman.com/).
-
-Go to the [Postman Download](https://www.postman.com/downloads/) website page.
-
-![Download Postman](./images/postman_download.png)
-
-Run the downloaded file to install Postman.
-
-![Install Postman](./images/postman_install.png)
-
-After a few seconds, we will have Postman up and running:
-
-![Postman hello](./images/postman_hello.png)
 
 At this point, you are ready to start learning!
 
