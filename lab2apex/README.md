@@ -75,8 +75,8 @@ Go to Quick SQL
 Write on the left panel the following table definition
 
 ```bash
-tasks /insert 2
-    text vc200
+tasks
+  text
 ```
 
 Click **Generate SQL**
@@ -103,128 +103,116 @@ Click **Run Now**
 
 ![Save SQL Script](../images/apex_quick_sql_run_now.png)
 
-Make sure all statements are successful and no errors happened
+Make sure all statements are successfully run and there are no errors.
 
 ![Save SQL Script](../images/apex_quick_sql_run_success.png)
+
+## Insert rows on the table
+
+We are going to mock some data to use it later with your Custom Component.
+
+Go to the Top Menu on **SQL Workshop**, click **Object Browser**
+
+![](../images/apex_object_browser_menu.png)
+
+Select `TASKS` table on the left and click the tab `Data`, then click `Insert Row`:
+
+![Object Browser Data](../images/apex_object_data.png)
+
+Leave `Id` empty and fill the field `Text` with a task description you like. When you are happy with your new task, click `Create and Create Another` and do the same with another task:
+
+![Object Browser Data](../images/apex_object_insert_row_1.png)
+
+Do the same with the second task entry:
+
+![Object Browser Data](../images/apex_object_insert_row_2.png)
+
+Finally, click `Create` and check the two rows are as expected:
+
+![Object Browser Data](../images/apex_object_new_rows.png)
 
 ## REST Enabling the Database Object
 
 In the main menu, select **SQL Workshop**, click **RESTful Services**.
 
-![](../images/apex_rest_services_menu.png)
+![REST Enable Menu](../images/apex_rest_services_menu.png)
 
-## Use the REST API
+Register your APEX schema with ORDS so we can offer a REST API of our tables, click `Register Schema with ORDS`:
 
-We are going to work with collections that in our case will contain the tasks.
+![REST Enable Register](../images/apex_rest_enable_register.png)
 
-To have access to the SODA REST API, we need to know the endpoint URL of the service. Go to your **Autonomous Transaction Processing** database, in the **Service Console** there is a **Development** section where you can find **RESTful Services and SODA**, copy the URL and save it for later.
+Set the `Schema Alias` name to `tasks` and click `Save Schema Attributes` to confirm:
 
-![SODA URL](../images/soda_url.png)
+![REST Enable Save](../images/apex_rest_enable_save.png)
 
-### Create the collection
+You will see that the Schema is now enabled.
 
-Create `tasks` collection with `Postman` by creating a new tab and set the following information:
+![REST Enable Success](../images/apex_rest_enable_register_success.png)
 
-<details>
-    <summary>cURL user, instead of Postman?</summary>
-    <p>
-        curl -XPUT -u 'ADMIN:<ADMIN_PASSWORD>' '<SODA_URL>/admin/soda/latest/tasks'
-    </p>
-</details>
+We need to create a Module with the base path for your API, a Template and a Handler to resolve the request of a specific method (GET, PUT, DELETE, etc).
 
-![PUT request](../images/postman_create_collection.png)
+Select **Modules** on the left and click **Create Module**:
 
-- `PUT` as method
-- SODA URL from the service console (we copy that URL in a previous step). Something like `https://xxxxxxxxxx.adb.yyyyyyyyyyy.oraclecloudapps.com/ords/admin/soda/latest/tasks`
-- In Authorization you have to set TYPE as `Basic Auth`
-- Username is `ADMIN` and password is the password you set when creating your Autonomous Database.
+![](../images/apex_rest_module.png)
 
-Click on `Send` (blue button) on Postman and wait for the response. Confirm you got a Status 201 Created:
+Fill **Module Name** and **Base Path** fields with the following data and click **Create Module**:
 
-![Status 201 Collection created](../images/postman_collection_201.png)
+- **Module Name**: `com.example.oda`
+- **Base Path**: `/oda/`
 
-> NOTE:
->
-> If you get an error `401 Unauthorized` or similar like this:
-> ![401](../images/postman_401.png)
-> Make sure the `URL`, `username` and `password` are correct.
+![](../images/apex_rest_module_create.png)
 
-### Insert elements to the collection
+Confirm the module has been created.
 
-Insert your first element in the collection by:
+![](../images/apex_rest_module_create_success.png)
 
-<details>
-    <summary>cURL user, instead of Postman?</summary>
-    <p>
-        curl -XPOST -u 'ADMIN:<ADMIN_PASSWORD>' --data '{"text": "Buy the milk"}' '<SODA_URL>/admin/soda/latest/tasks'
-    </p>
-</details>
+Scroll down and click **Create Template**:
 
-![Insert 1](../images/postman_insert_1.png)
+![](../images/apex_rest_module_create_template.png)
 
-with body request:
+Fill **URI Template** with `tasks/` and click **Create Template**:
 
-```json
-{ "text": "Buy the milk" }
+![](../images/apex_rest_template_create.png)
+
+Confirm the Template has been created and click **Create Handler**:
+
+![](../images/apex_rest_handler_create.png)
+
+Make sure the fields for the Handler are as follows:
+
+- **Method**: `GET`
+- **Source Type**: `Collection Query`
+- **Format**: `JSON`
+
+![](../images/apex_rest_handler_create_get.png)
+
+On the **Source** area we are going to run the SQL select to fetch the data form the schema:
+
+```sql
+select * from tasks
 ```
 
-Insert your second element in the collection by:
+> NOTE: please, don't use "`;`" at the end of the SQL statement
 
-![Insert 2](../images/postman_insert_2.png)
+![](../images/apex_rest_handler_source_query.png)
 
-with body request:
+Click **Create Handler** to save the changes on the GET handler:
 
-```json
-{ "text": "Walk the dog" }
-```
+![](../images/apex_rest_handler_create_confirm.png)
 
-In both cases, the response should be a `201 Created`:
+Confirm the Handler has been created and copy the **Full URL**:
 
-![Item created 201](../images/postman_create_item_201.png)
+![](../images/apex_rest_handler_create_success.png)
 
 ## It works
 
-Look at the shape of the table behind SODA.
+We will use the full URL for testing on the browser to verify the GET Handler works. Go to your favorite browser and paste the URL you copied:
 
-Go to **SQL Developer Web** and run:
+![](../images/apex_rest_browser_test.png)
 
-```sql
-DESCRIBE tasks;
-```
+You should see the items with `id` and `text` and other fields and references in JSON format.
 
-![Describe table](../images/describe.png)
-
-You will see something like this result:
-
-```bash
-Name          Null?    Type
-------------- -------- -------------
-ID            NOT NULL VARCHAR2(255)
-CREATED_ON    NOT NULL TIMESTAMP(6)
-LAST_MODIFIED NOT NULL TIMESTAMP(6)
-VERSION       NOT NULL VARCHAR2(255)
-JSON_DOCUMENT          BLOB
-```
-
-> NOTE:
->
-> - **ID**: Contains the unique ID for this document.
-> - **LAST_MODIFIED**: The date and time of the last update of the document.
-> - **CREATED_ON**: The data and time the document was created.
-> - **VERSION**: The current version of SODA adopts an optimistic locking strategy to versioning documents.
-> - **JSON_DOCUMENT**: The JSON document content created.
-
-Check the content of the table `tasks`.
-
-On **SQL Developer Web** run the following statement:
-
-```sql
-SELECT * FROM tasks;
-```
-
-![Select](../images/select.png)
-
-How many rows do you see? You should have 2 rows in the table.
+How many items do you see? You should have as many tasks as you created before in the table.
 
 Congratulations! You are ready to go to the next Lab!
 
