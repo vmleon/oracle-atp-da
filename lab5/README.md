@@ -54,11 +54,11 @@ Make sure the `Status` is `Ready` and you see all the information like in this s
 
 ---
 
-## Create intents
+## Create intents
 
 Oracle Digital Assistant's underlying natural language processing (NLP) engine doesn't inherently know about the business or task that a skill is supposed to assist with. For the skill to understand what it should react to, you need to define intents and examples (utterances) for how a user would request a specific intent.
 
-Create Greeting intent, click on `+ Intent` button
+Create Greeting intent, click `+ Intent`:
 
 ![Intent Create](../images/intents_1.png)
 
@@ -197,22 +197,21 @@ Run the test of the skill:
 
 To see how we request against the database we can add a new item:
 
-Insert your third element in the collection by:
+Insert your third element in the collection by going to APEX and on the Top Menu on **SQL Workshop**, click **Object Browser**:
 
-<details>
-    <summary>cURL user, instead of Postman?</summary>
-    <p>
-        curl -XPOST -u 'ADMIN:<ADMIN_PASSWORD>' --data '{"text": "Like this project on Github"}' '<SODA_URL>/admin/soda/latest/tasks'
-    </p>
-</details>
+![](../images/apex_object_browser_menu_clean.png)
 
-![Insert 1](../images/postman_insert_1.png)
+Select **TASKS** table on the left and click the tab **Data**, then click **Insert Row**:
 
-with body request:
+![Object Browser Data](../images/apex_object_data_inser_new.png)
 
-```json
-{"text": "Like this project on Github"}
-```
+Add a new **Text** like `New item!` and click **Create**:
+
+![Object Browser Data](../images/apex_object_data_insert_item.png)
+
+confirm the row has been created:
+
+![Object Browser Data](../images/apex_object_data_insert_row_created.png)
 
 Run the chat again and reset the previous conversation
 
