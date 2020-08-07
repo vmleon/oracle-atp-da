@@ -59,4 +59,5 @@ Congratulations, you are ready for the next Lab!
 
 ---
 
-[home](../README.md) | [**Go to Lab 2 >>>>>**](../lab2apex/README.md)
+[**<< Go to Sign Up**](../lab0/README.md) | [Home](../README.md) | [**Go to Lab 2 >>>>>**](../lab2/README.md)
+
