@@ -49,39 +49,11 @@ Look around the details and get familiar with the buttons and tabs on this page.
 
 ![ATP Details](../images/atp_details.png)
 
-## Use Web SQL Developer
-
-Time to run some SQL code. Traditionally you would have to download the software and configure the connection with the database. With Oracle Cloud and Autonomous Database you have another option available and no configuration is needed.
-
-SQL Developer is available on the web console. Click on **Service Console** button.
-
-![ATP Service Console](../images/atp_service_console.png)
-
-It will open another browser tab with all the service console tools. You will see some metrics. For the moment, click on **Development** menu on the left.
-
-![ATP Development](../images/atp_development.png)
-
-Click on **SQL Developer Web** tile
-
-![ATP Development SQL Developer](../images/atp_development_sqldeveloper.png)
-
-A new browser tab will open to log-in on SQL Developer Web. The **Username** is **ADMIN** and the **Password** is the one during creation time (not the one for the Wallet zip file).
-
-![SQL Developer Web Login](../images/sqldev_login.png)
 
 ## It works
 
 You just created an Autonomous Database with the latest features of Oracle Databases.
 
-Finally, you run SQL Developer Web to run queries without installing or configuring anything.
-
-Run the following SQL query:
-
-```sql
-SELECT banner FROM v$version;
-```
-
-![SQL Developer Web query](../images/sqldev_query.png)
 
 Congratulations, you are ready for the next Lab!
 
