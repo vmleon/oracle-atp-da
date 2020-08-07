@@ -68,38 +68,38 @@ Use Cases:
 - Easily generate random data
 - Learn SQL create table, select, insert, index, trigger, PL/SQL package, and view syntax using provided examples
 
-Go to Quick SQL
+Go to Quick SQL.
 
 ![Quick SQL](../images/apex_quick_sql_menu.png)
 
-Write on the left panel the following table definition
+Write on the left panel the following table definition:
 
 ```bash
 tasks
   text
 ```
 
-Click **Generate SQL**
+Click **Generate SQL**.
 
 ![Generate SQL](../images/apex_generate_sql.png)
 
-Click **Save SQL Script**
+Click **Save SQL Script**.
 
 ![Save SQL Script](../images/apex_save_sql_script.png)
 
-Set the name of the script to `tasks` and confirm **Save Script**
+Set the name of the script to `tasks` and confirm **Save Script**.
 
 ![Save SQL Script Confirm](../images/apex_save_sql_script_confirm.png)
 
-Click **Review and Run**
+Click **Review and Run**.
 
 ![Save SQL Script](../images/apex_quick_sql_review.png)
 
-Click **Run**
+Click **Run**.
 
 ![Save SQL Script](../images/apex_quick_sql_run.png)
 
-Click **Run Now**
+Click **Run Now**.
 
 ![Save SQL Script](../images/apex_quick_sql_run_now.png)
 
@@ -111,7 +111,7 @@ Make sure all statements are successfully run and there are no errors.
 
 We are going to mock some data to use it later with your Custom Component.
 
-Go to the Top Menu on **SQL Workshop**, click **Object Browser**
+Go to the Top Menu on **SQL Workshop**, click **Object Browser**.
 
 ![](../images/apex_object_browser_menu.png)
 
@@ -192,7 +192,7 @@ On the **Source** area we are going to run the SQL select to fetch the data form
 select * from tasks
 ```
 
-> NOTE: please, don't use "`;`" at the end of the SQL statement
+> NOTE: please, don't use "`;`" at the end of the SQL statement.
 
 ![](../images/apex_rest_handler_source_query.png)
 

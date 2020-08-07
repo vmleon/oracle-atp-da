@@ -28,15 +28,15 @@ Fill the information like in the image and click `Create` button:
 
 Import Custom Component is very simple.
 
-Go to the Components view ![Components](../images/components-icon.png) on the left menu
+Go to the Components view ![Components](../images/components-icon.png) on the left menu.
 
 ![Create Skill](../images/cc_import_1.png)
 
-The web form to upload the file will show up
+The web form to upload the file will show up.
 
 ![Create Skill](../images/cc_import_2.png)
 
-Upload `tasks-cc-1.0.0.tgz` file
+Upload `tasks-cc-1.0.0.tgz` file.
 
 ![Create Skill](../images/cc_import_3.png)
 
@@ -44,11 +44,11 @@ Fill the information and remember to `Enable Component Logging` with the toggle 
 
 ![Create Skill](../images/cc_import_4.png)
 
-Wait for the deployment
+Wait for the deployment.
 
 ![Create Skill](../images/cc_import_5.png)
 
-Make sure the `Status` is `Ready` and you see all the information like in this screenshot
+Make sure the `Status` is `Ready` and you see all the information like in this screenshot.
 
 ![Create Skill](../images/cc_import_6.png)
 
@@ -62,19 +62,19 @@ Create Greeting intent, click `+ Intent`:
 
 ![Intent Create](../images/intents_1.png)
 
-Modify default values
+Modify default values.
 
 ![Intent Default values](../images/intents_2.png)
 
-For `Greeting` intent
+For `Greeting` intent.
 
 ![Intent Greeting](../images/intents_3.png)
 
-Click on `+ Intent` on the same screen
+Click on `+ Intent` on the same screen.
 
 ![Intent Create](../images/intents_4.png)
 
-Modify default values for `ListTasks` intent
+Modify default values for `ListTasks` intent.
 
 ![Intent default](../images/intents_5.png)
 
@@ -86,11 +86,11 @@ On the left menu, you will find the Flows entry with this icon:
 
 ![Flows](../images/flows-menu-item.png)
 
-You will see the `YAML` file that define the behaviour of your Skill
+You will see the `YAML` file that define the behaviour of your Skill.
 
 ![Flows 1](../images/flows_1.png)
 
-Delete the initial content
+Delete the initial content.
 
 ![Flows 2](../images/flows_2.png)
 
@@ -161,21 +161,21 @@ states:
       return: unresolved
 ```
 
-**XXX** Explain every part of the Flows definition
+**XXX** Explain every part of the Flows definition.
 
-It should look like
+It should look like:
 
 ![Flows 3](../images/flows_3.png)
 
-Make sure all the syntaxis is correct on the flow by clicking `Validate` button
+Make sure all the syntaxis is correct on the flow by clicking `Validate` button.
 
 ![Flows 4](../images/flows_4.png)
 
-Click `Train` button to run the machine learning algorithm
+Click `Train` button to run the machine learning algorithm.
 
 ![Flows 5](../images/flows_5.png)
 
-Wait for the confirmation
+Wait for the confirmation.
 
 ![Flows 6](../images/flows_6.png)
 
@@ -187,9 +187,9 @@ Run the test of the skill:
 >
 > If you see an error message at this point, it means there is a problem with the custom component code.
 >
-> To get more information about the issue, check the logs
+> To get more information about the issue, check the logs.
 >
-> Go to Components ![Components Icon](../images/components-icon.png) on the left menu and click on Diagnostics for your Custom Component, then on View Logs
+> Go to Components ![Components Icon](../images/components-icon.png) on the left menu and click on Diagnostics for your Custom Component, then on **View Logs**.
 >
 > ![View Logs](../images/cc_view_logs.png)
 
@@ -213,15 +213,15 @@ confirm the row has been created:
 
 ![Object Browser Data](../images/apex_object_data_insert_row_created.png)
 
-Run the chat again and reset the previous conversation
+Run the chat again and reset the previous conversation.
 
 ![Final Test](../images/test_final_1.png)
 
-Type `show me my tasks`
+Type `show me my tasks`:
 
 ![Final Test](../images/test_final_2.png)
 
-Check the result
+Check the result.
 
 ![Final Test](../images/test_final_3.png)
 
