@@ -77,7 +77,7 @@ Make sure you look around and feel familiar with the menus.
 
 ![ODA Menu](../images/oda_6.png)
 
-Congratulations! You are ready to go to the next Lab!
+## Congratulations! You are ready to go to the next Lab!
 
 ---
 

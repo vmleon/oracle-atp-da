@@ -73,7 +73,7 @@ Look around the details and get familiar with the buttons and tabs on this page.
 
 You just created an Autonomous Database with the latest features of Oracle Databases.
 
-Congratulations, you are ready for the next Lab!
+## Congratulations, you are ready for the next Lab!
 
 ---
 

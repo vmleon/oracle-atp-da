@@ -174,7 +174,7 @@ There will be a new file in your `tasks-cc` folder called `tasks-cc-1.0.0.tgz`.
 
 ![tgz new file](../images/node_tgz_file.png)
 
-Congratulations! You are ready to go to the next Lab!
+## Congratulations! You are ready to go to the next Lab!
 
 ---
 

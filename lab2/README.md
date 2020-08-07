@@ -214,7 +214,7 @@ You should see the items with `id` and `text` and other fields and references in
 
 How many items do you see? You should have as many tasks as you created before in the table.
 
-Congratulations! You are ready to go to the next Lab!
+## Congratulations! You are ready to go to the next Lab!
 
 ---
 

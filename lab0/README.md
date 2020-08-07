@@ -72,7 +72,7 @@ You just created an Oracle Cloud Free Tier Account.
 
 Additionally you sign in with your account.
 
-Congratulations, you are ready for the next Lab!
+## Congratulations, you are ready for the next Lab!
 
 ---
 
