@@ -111,17 +111,78 @@ Make sure all statements are successful and no errors happened
 
 ![Save SQL Script](../images/apex_quick_sql_run_success.png)
 
+## Insert rows on the table
+
+We are going to mock some data to use it later with your Custom Component.
+
+Go to **SQL Workshop**, click **Object Browser**
+
+XXXX Missing picture
+
+Select `TASKS` table on the left and click the tab `Data`, then click `Insert Row`:
+
+![Object Browser Data](../images/apex_object_data.png)
+
+Leave `Id` empty and fill the field `Text` with a task description you like:
+
+![Object Browser Data](../images/apex_object_insert_row_1.png)
+
+When you are happy with your new task, click `Create and Create Another` and do the same with another task:
+
+![Object Browser Data](../images/apex_object_insert_row_2.png)
+
+Finally, click `Create` and check the two rows are as expected:
+
+![Object Browser Data](../images/apex_object_new_rows.png.png)
+
 ## REST Enabling the Database Object
 
 In the main menu, select **SQL Workshop**, click **RESTful Services**.
 
-![REST Enable  Menu](../images/apex_rest_services_menu.png)
+![REST Enable Menu](../images/apex_rest_services_menu.png)
+
+Register your APEX schema with ORDS so we can offer a REST API of our tables, click `Register Schema with ORDS`:
 
 ![REST Enable Register](../images/apex_rest_enable_register.png)
 
+Set the `Schema Alias` name to `tasks` and click `Save Schema Attributes` to confirm:
+
 ![REST Enable Save](../images/apex_rest_enable_save.png)
 
+You will see that the Schema is now enabled.
+
 ![REST Enable Success](../images/apex_rest_enable_register_success.png)
+
+We need to create a Module with the base path for your API, a Template and a Handler to resolve the request of a specific method (GET, PUT, DELETE, etc).
+
+Select `Modules` on the left and click `Create Module`:
+
+![](../images/apex_rest_module.png)
+
+Fill the `Module Name` with any name you like (ex. `com.example.oda`) and `Base Path` with `/oda/` fields and click `Create Module`:
+
+![](../images/apex_rest_module_create.png)
+
+Confirm the module has been created.
+
+![](../images/apex_rest_module_create_success.png)
+
+Scroll down and click `Create Template`:
+
+![](../images/apex_rest_module_create_template.png)
+
+XXX Missing pictures
+
+On the Source area we are going to run the SQL select to fetch the data form the schema:
+
+```
+select * from tasks
+```
+
+> NOTE: please, don't use "`;`" at the end of the SQL statement
+
+![](../images/apex_rest_module_create_template_source.png)
+
 
 ## Use the REST API
 
