@@ -42,6 +42,7 @@ Leave **Allow Secure Access From Everywhere** for the workshop and **Bring your 
 Click **Create Autonomous Database** button.
 
 ![ATP Creation](../images/atp_creation_3.png)
+![ATP Creation](../images/atp_creation_4.png)
 
 After few seconds you will have your new Autonomous Database up and running.
 
