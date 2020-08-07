@@ -75,13 +75,9 @@ Go to Quick SQL
 Write on the left panel the following table definition
 
 ```bash
-tasks /rest
-    text vc200
+tasks
+  text
 ```
-
-> Notice that `/rest` generate REST enablement of the table using Oracle REST Data Services (ORDS)
->
-> Simple!
 
 Click **Generate SQL**
 
@@ -107,7 +103,7 @@ Click **Run Now**
 
 ![Save SQL Script](../images/apex_quick_sql_run_now.png)
 
-Make sure all statements are successful and no errors happened
+Make sure all statements are successfully run and there are no errors.
 
 ![Save SQL Script](../images/apex_quick_sql_run_success.png)
 
@@ -115,7 +111,7 @@ Make sure all statements are successful and no errors happened
 
 We are going to mock some data to use it later with your Custom Component.
 
-Go to **SQL Workshop**, click **Object Browser**
+Go to the Top Menu on **SQL Workshop**, click **Object Browser**
 
 XXXX Missing picture
 
@@ -123,17 +119,17 @@ Select `TASKS` table on the left and click the tab `Data`, then click `Insert Ro
 
 ![Object Browser Data](../images/apex_object_data.png)
 
-Leave `Id` empty and fill the field `Text` with a task description you like:
+Leave `Id` empty and fill the field `Text` with a task description you like. When you are happy with your new task, click `Create and Create Another` and do the same with another task:
 
 ![Object Browser Data](../images/apex_object_insert_row_1.png)
 
-When you are happy with your new task, click `Create and Create Another` and do the same with another task:
+Do the same with the second task entry:
 
 ![Object Browser Data](../images/apex_object_insert_row_2.png)
 
 Finally, click `Create` and check the two rows are as expected:
 
-![Object Browser Data](../images/apex_object_new_rows.png.png)
+![Object Browser Data](../images/apex_object_new_rows.png)
 
 ## REST Enabling the Database Object
 
