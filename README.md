@@ -63,7 +63,7 @@ Node.js is an asynchronous event-driven JavaScript runtime. **Node.js** is desig
 
 Additionally you need to be familiar with the use of **Command Prompt/Terminal** so we will show you briefly the way to use it for Windows users.
 
-As a **Windows user** you need to type on the **Windows Search** Icon :
+As a **Windows user** you need to type on the **Windows Search** Icon:
 
 ```
 cmd
@@ -76,8 +76,8 @@ That will open the Command Prompt/Terminal so you are ready to go.
 
 ![Terminal](./images/cmd_2.png)
 
-Here you can find a basic guidance of commands that you can use on the terminal:
-https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands
+[Here you can find a basic guidance of commands that you can use on the terminal.](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
+
 Don't worry all the commands that we will need on the lab are part of the code so you don't need to learn any additional one.
 
 
