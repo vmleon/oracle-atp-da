@@ -61,6 +61,28 @@ In order to walk through this workshop you need to develop the integration with 
 
 Node.js is an asynchronous event-driven JavaScript runtime. **Node.js** is designed to build scalable network applications.
 
+Additionally you need to be familiar with the use of **Command Prompt/Terminal** so we will show you briefly the way to use it for Windows users.
+
+As a **Windows user** you need to type on the **Windows Search** Icon :
+
+```
+cmd
+```
+and select **Command Prompt**.
+
+![Windows search Terminal](./images/cmd_1.png)
+
+That will open the Command Prompt/Terminal so you are ready to go.
+
+![Terminal](./images/cmd_2.png)
+
+Here you can find a basic guidance of commands that you can use on the terminal:
+https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands
+Don't worry all the commands that we will need on the lab are part of the code so you don't need to learn any additional one.
+
+
+### Node.js Installation
+
 We are going to **install** Node.js, if you have done this you can skip this step.
 
 ![Node.js](./images/nodejs.png)
@@ -104,6 +126,7 @@ npx @oracle/bots-node-sdk -v
 Like this:
 
 ![Node Versions](./images/node_versions.png)
+
 
 At this point, you are ready to start learning!
 
