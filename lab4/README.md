@@ -1,8 +1,8 @@
 # Lab 4: Implement Custom Component
 
-Oracle Digital Assistant allows you to build integrations with backend services by creating Custom Components.
+**Oracle Digital Assistant** allows you to build integrations with backend services by creating **Custom Components**.
 
-Custom Components are a bridge between Skills on Oracle Digital Assistant and the services where information can be fetched.
+Custom Components are a bridge between **Skills** on Oracle Digital Assistant and the **Services** where information can be fetched.
 
 ![Custom Component Architecture](../images/oda_cc_architecture.png)
 
@@ -10,21 +10,21 @@ Custom components allow you as well to plug-in custom code logic into a bot conv
 
 That is exactly what we are going to build.
 
-Custom Components are developed using Node.js. They are just a REST API that offer an endpoint to Skills bots to `GET` and `POST` actions.
+**Custom Components** are developed using **Node.js**. They are just a REST **API** that offer an endpoint to **Skills** bots to `GET` and `POST` actions.
 
 ![Custom Component](../images/oda_cc.png)
 
-You can package related custom components together.
+You can package related **Custom Components** together.
 
 ## Create a Custom Component to integrate with backend services
 
-Oracle provides Oracle Bots Node.js SDK, a free utility that makes custom components development very easy.
+Oracle provides **Oracle Bots Node.js SDK**, a free utility that makes custom components development very easy.
 
-> We have explain the instalation steps in the Pre-requisites section at the very begining of this lab.
+> We had explained the instalation steps in the Pre-requisites section at the very begining of this lab.
 
-Ready to create your Custom Component scaffolding:
+Ready to create your **Custom Component** scaffolding.
 
-On the same terminal type:
+Open a **terminal** and type:
 
 ```bash
 npx @oracle/bots-node-sdk init tasks-cc --component-name tasks
@@ -32,7 +32,7 @@ npx @oracle/bots-node-sdk init tasks-cc --component-name tasks
 
 Where `tasks-cc` is the name of the custom component module. And `tasks` is the name of our first custom component implementation.
 
-The result should look like this:
+The **result** should look like this:
 
 ```bash
 ---------------------------------------------------------------------
@@ -53,7 +53,7 @@ Usage:
 >
 > Note you have a `package.json` file and a `components` folder with a file `tasks.js` inside.
 
-Change directory to `tasks-cc` on the Command Prompt or Terminal:
+**Change directory** to `tasks-cc` on the Command Prompt or Terminal:
 
 ```bash
 cd tasks-cc
@@ -152,13 +152,13 @@ It should look like this:
 
 Custom Components can be deployed in different ways:
 
-- Local Component Container: single instance deployment as custom component resides in skill bot
-- Mobile Hub: multi-channel environment with mobile extras and shared instance deployment.
-- Node Container: shared instance but no need for mobile extras.
+- **Local Component Container**: single instance deployment as custom component resides in skill bot
+- **Mobile Hub**: multi-channel environment with mobile extras and shared instance deployment.
+- **Node Container**: shared instance but no need for mobile extras.
 
-We are going to install our custom component locally as a component container. Very simple, we need to pack our code in a single file that contains everything:
+We are going to **install** our custom component **locally** as a **component container**. Very simple, we need to pack our code in a single file that contains everything:
 
-Package your Custom Component by running on your Command Prompt or Terminal:
+Package your **Custom Component** by running on your Command Prompt or Terminal:
 
 ```bash
 npm pack
