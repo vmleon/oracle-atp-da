@@ -61,7 +61,7 @@ In order to walk through this workshop you need to develop the integration with 
 
 Node.js is an asynchronous event-driven JavaScript runtime. Node.js is designed to build scalable network applications.
 
-We are going to install Node.js, if you have done this you can skip this step.
+We are going to **install** Node.js, if you have done this you can skip this step.
 
 ![Node.js](./images/nodejs.png)
 
@@ -69,7 +69,7 @@ We are going to install Node.js, if you have done this you can skip this step.
 
 ![Node Dowload](./images/node_download.png)
 
-We are going to install on Windows but it works in a similar way in Linux and MacOS.
+We are going to install on **Windows** but it works in a similar way in **Linux** and **MacOS**.
 
 ![Node Install Start](./images/node_install_start.png)
 
@@ -79,7 +79,7 @@ Final step, click **Install**:
 
 ![Node Install](./images/node_install.png)
 
-Installation completed.
+Installation **completed**.
 
 ![Node Install End](./images/node_install_end.png)
 
@@ -87,7 +87,7 @@ The last step sometimes take a while on Windows because the lack of libraries, p
 
 ![Node Native Modules Installation](./images/node_native_module.png)
 
-Check if the installation went well. Open a Command Prompt, or Terminal in Linux and MacOS and run the following commands:
+Check if the installation went **well**. Open a Command Prompt, or Terminal in Linux and MacOS and run the following commands:
 
 ```bash
 node -v
