@@ -2,7 +2,7 @@
 
 ![Oracle Cloud Free Tier Banner](../images/oracle_cloud_free_tier0.png)
 
-During this short lab, we will create, sign in and walk through the steps of setting up an Oracle Cloud Free Tier account.
+During this short lab, we will **Create**, **Sign In** and **Walk Through** the steps of setting up an **Oracle Cloud Free Tier** account.
 
 ## Create Your Free Trial Account
 
@@ -10,24 +10,24 @@ What's included with **Oracle Cloud Free Tier**?
 
 ![Oracle Cloud Free Tier](../images/oracle_cloud_free_tier.png)
 
-**Oracle Cloud Free Tier** allows you to sign up for an **Oracle Cloud** account which provides a number of **Always Free** services and a **Free Trial** with US$300 of free credit to use on all eligible Oracle Cloud Infrastructure services for up to 30 days. The Always Free services are available for an unlimited period of time. The Free Trial services may be used until your US$300 of free credits are consumed or the 30 days has expired, whichever comes first.
+**Oracle Cloud Free Tier** allows you to sign up for an **Oracle Cloud** account which provides a number of **Always Free** services and a **Free Trial** with US$300 of free credit to use on all eligible Oracle Cloud Infrastructure services for up to 30 days. The **Always Fre**e services are available for an unlimited period of time. The Free Trial services may be used until your US$300 of free credits are consumed or the 30 days has expired, whichever comes first.
 
 **Always Free** and **Free Trial** instances can be seamlessly upgraded to pay at any time. Existing Oracle Cloud customers have access to Always Free services automatically—no new sign up required.
 
-To learn more about Oracle Cloud Always Free and Free Trial account check the following link:
+To learn more about **Oracle Cloud Always Free** and **Free Trial** account check the following link:
 [https://www.oracle.com/cloud/free/#always-free](https://www.oracle.com/cloud/free/#always-free)
 
-As part of your sign up to this lab, you will have been provided a link to sign up to Oracle Cloud Free Tier. Please make sure you:
+As part of your sign up to this lab, you will have been provided a link to **Sign Up** to Oracle Cloud Free Tier. Please make sure you:
 
-- Use the following URL - [>> Sign Up for Oracle Cloud <<](http://bit.ly/34TzwGf)
-- Use a personal email address that you will use during all the workshop process.
+- Use the **following URL** - [>> Sign Up for Oracle Cloud <<](http://bit.ly/34TzwGf)
+- Use a **personal email** address that you will use during all the workshop process.
 
-On the sign up page, enter your **email address**, select your **Country/Territory** and click "**Next**".
+On the Sign Up page, enter your **email address**, select your **Country/Territory** and click "**Next**".
 
 ![Sign Up Page](../images/oracle_cloud_free_tier1.png)
 
 On the "**Enter Account Details**" page you will be asked for **Account Type**, please select **Company Use** or **Personal Use** considering the purpose of this cloud account.
-You will also be asked for the **Cloud Account Name** (also known as **Tenancy Name**). This will uniquely identify your cloud account and will be visible in your URL later, so please choose wisely.
+You will also be asked for the **Cloud Account Name** (also known as **Tenancy Name**). This will uniquely identify your cloud account and will be visible in your **URL** later, so please choose wisely.
 
 Finally, you will be asked also for the "**Home Region**". This is the location of the physical datacenter. You should select a datacenter that is geographically close to you and supports the required services.
 
@@ -47,9 +47,13 @@ On that email you will receive a **Cloud Account** and **Username**.
 
 To **Sign In** to your cloud account, use the link and the information that you received on the email address. 
 
-**Cloud Account** is the same as **Tenancy** that it is required on the **Cloud Infrastructure Sign In Page**.
-**Username** is the email address that you used for registration.
-**Password**, you will be prompted to set a new one, more memorable password.
+- **Cloud Account** is the same as **Tenancy** 
+that it is required on the **Cloud Infrastructure Sign In Page**.
+
+- **Username** is the email address that you used for registration.
+
+- **Password**, you will be prompted to set a new one, more memorable password.
+
 After click **Sign in**.
 
 
