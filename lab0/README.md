@@ -31,6 +31,8 @@ You will also be asked for the **Cloud Account Name** (also known as **Tenancy N
 
 Finally, you will be asked also for the "**Home Region**". This is the location of the physical datacenter. You should select a datacenter that is geographically close to you and supports the required services.
 
+[You can review which services are available in each region using this page.](https://www.oracle.com/uk/cloud/data-regions.html#emea)
+
 ![Sign Up Page Details](../images/oracle_cloud_free_tier2.png)
 
 Complete all other mandatory fields on the form (indicated with a *) and select **Next**. Verify Your **Mobile Phone Number**.
