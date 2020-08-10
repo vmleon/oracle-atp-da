@@ -149,7 +149,7 @@ Register your APEX schema with ORDS so we can offer a REST API of our tables, cl
 
 Set the `Schema Alias` name to `tasks` and click `Save Schema Attributes` to confirm:
 
-![REST Enable Save](../images/apex_rest_enable_save.png)
+![REST Enable Save](../images/apex_rest_enable_save2.png)
 
 You will see that the Schema is now enabled.
 

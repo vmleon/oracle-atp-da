@@ -2,7 +2,7 @@
 
 ![Autonomous](../images/adb_banner.png)
 
-This lab walks you through the steps to get started using the Oracle Autonomous Transaction Processing Database on Oracle Cloud Infrastructure (OCI). You will provision a new database in just few minutes.
+This lab walks you through the steps to get started using the **Oracle Autonomous Transaction Processing Database (ATP)** on **Oracle Cloud Infrastructure (OCI)**. You will provision a new database in just few minutes.
 
 ### Self-driving
 
@@ -26,7 +26,7 @@ Perfect for Developers!
 
 ## Create a new Autonomous Transaction Processing
 
-Go to the Autonomous Transaction Processing (ATP) menu:
+Go to the **Autonomous Transaction Processing (ATP)** menu:
 
 ![Menu ATP](./../images/menu_atp.png)
 

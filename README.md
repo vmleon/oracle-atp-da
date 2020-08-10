@@ -57,9 +57,9 @@ You are also interested in exploring modern and quick **APEX** development and b
 
 ## Requirements
 
-In order to walk through this workshop you need to develop the integration with REST API. You need [Node.js](https://nodejs.org/en/) for that.
+In order to walk through this workshop you need to develop the integration with **REST API**. You need [Node.js](https://nodejs.org/en/) for that.
 
-Node.js is an asynchronous event-driven JavaScript runtime. Node.js is designed to build scalable network applications.
+Node.js is an asynchronous event-driven JavaScript runtime. **Node.js** is designed to build scalable network applications.
 
 We are going to **install** Node.js, if you have done this you can skip this step.
 
