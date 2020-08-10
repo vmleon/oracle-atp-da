@@ -64,6 +64,13 @@ Create Greeting intent, click `+ Intent`:
 
 Modify default values.
 
+<!-- TODO -->
+
+Utterances:
+
+- `hi`
+- `hello`
+
 ![Intent Default values](../images/intents_2.png)
 
 For `Greeting` intent.
@@ -75,6 +82,14 @@ Click on `+ Intent` on the same screen.
 ![Intent Create](../images/intents_4.png)
 
 Modify default values for `ListTasks` intent.
+
+<!-- TODO -->
+
+Utterances:
+
+- `tasks`
+- `show me my tasks`
+- `list my tasks`
 
 ![Intent default](../images/intents_5.png)
 
@@ -167,7 +182,7 @@ It should look like:
 
 ![Flows 3](../images/flows_3.png)
 
-Make sure all the syntaxis is correct on the flow by clicking `Validate` button.
+Make sure all the syntax is correct on the flow by clicking `Validate` button.
 
 ![Flows 4](../images/flows_4.png)
 

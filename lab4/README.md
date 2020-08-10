@@ -83,19 +83,14 @@ Open the file `tasks.js` with your favourite text editor. You can find this file
 
 Edit the file `tasks.js` and **replace** the whole content with the following code:
 
-PRISCILA -----
+<!-- PRISCILA -->
 
 ```javascript
 "use strict";
 
 const fetch = require("node-fetch");
 
-const ordsURL = "<SODA_URL>/ords";
-const collection = "tasks";
-
-const username = "ADMIN";
-const password = "<ADMIN_PASSOWRD>";
-const authString = `${username}:${password}`;
+const ordsURL = "<URL_copied_from_APEX>";
 
 function getTasks(urlRequest, logger, callback) {
   logger.info(urlRequest);
@@ -124,15 +119,13 @@ module.exports = {
     supportedActions: ["success", "failure"],
   }),
   invoke: (conversation, done) => {
-    const urlRequest = `https://${authString}@${ordsURL}/${username.toLowerCase()}/soda/latest/${collection}`;
-    getTasks(urlRequest, conversation.logger(), (err, items) => {
+    getTasks(ordsURL, conversation.logger(), (err, data) => {
       if (err) {
         conversation.transition("failure");
         done();
         return;
       }
-      const values = items.map((item) => item.value);
-      const tasks = values.map((v) => v.text);
+      const tasks = data.map((task) => task.text);
       conversation.reply(tasks.join("\n")).transition("success");
       done();
     });
@@ -142,16 +135,13 @@ module.exports = {
 
 IMPORTANT:
 
-Remember to change the `<SODA_URL>` and `<ADMIN_PASSOWRD>` for the values as we have done in lab 2.
+Remember to change the `<URL_copied_from_APEX>` with the URL copied on APEX.
 
 It should look like this:
 
 ```javascript
-  5 const ordsURL = "GFHWWOU5XPCXAQ-ATPWORKSHOP.adb.uk-london-1.oraclecloudapps.com/ords";
-  6 const collection = "tasks";
-  7
-  8 const username = "ADMIN";
-  9 const password = "Str0ngP4$$w0rd!";
+const ordsURL =
+  "https://xxx-yyy.adb.region.oraclecloudapps.com/ords/tasks/oda/tasks/";
 ```
 
 ## Deploy the custom component
