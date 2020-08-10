@@ -43,10 +43,20 @@ You will be prompted to enter the **Code** sent to your cell phone.
 ## Sign in to Your Account
 
 At the end of this process, you will receive an email titled "**Get Started Now with Oracle Cloud**". This will contain all the information you need to sign into your cloud account and include a link to the login page for your region.
+On that email you will receive a **Cloud Account ** and **Username**.
 
-To login to your cloud account, use the same email address that you used for registration and the password provided in the email. You will be prompted to set a new, more memorable password.
+![Sign Up Welcome Email](../images/oracle_cloud_free_tier4_1.png)
 
-![Sign Up Welcome Email](../images/oracle_cloud_free_tier4.png)
+To login to your cloud account, use the link and the information that you received on the email address. 
+
+**Cloud Account** is the same as **Tenancy** that it is required on the **Cloud Infrastructure Sign In Page**.
+**Username** is the email address that you used for registration.
+**Password**, you will be prompted to set a new one, more memorable password.
+After click **Sign in**.
+
+
+![Sign Up Welcome Console](../images/oracle_cloud_free_tier4_2.png)
+
 
 Otherwise go to [oracle.com](http://cloud.oracle.com).
 
