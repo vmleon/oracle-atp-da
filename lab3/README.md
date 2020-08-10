@@ -77,8 +77,8 @@ Make sure you look around and feel familiar with the menus.
 
 ![ODA Menu](../images/oda_6.png)
 
-Congratulations! You are ready to go to the next Lab!
+## Congratulations! You are ready to go to the next Lab!
 
 ---
 
-[**<< Go to Lab 2**](../lab2apex/README.md) | [Home](../README.md) | [**Go to Lab 4 >>>>>**](../lab4/README.md)
+[**<< Go to Lab 2**](../lab2/README.md) | [Home](../README.md) | [**Go to Lab 4 >>>>>**](../lab4/README.md)

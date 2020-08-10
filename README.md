@@ -16,7 +16,7 @@ You are also interested in exploring modern and quick **APEX** development and b
 
 ## Content
 
-[Lab 0: Sign Up for your Oracle Cloud Free Tier](lab0/README.md)
+[Get Started: Sign Up for your Oracle Cloud Free Tier](lab0/README.md)
 
 - Create Your Free Trial Account
 - Sign in to Your Account
@@ -26,7 +26,7 @@ You are also interested in exploring modern and quick **APEX** development and b
 - Create Your Autonomous Database
 - Quick Walk-through
 
-[Lab 2: Create APEX workshop and REST API](lab2apex/README.md)
+[Lab 2: Create APEX workshop and REST API](lab2/README.md)
 
 - Create APEX Workspace
 - Create a Table with Quick SQL
@@ -57,11 +57,15 @@ You are also interested in exploring modern and quick **APEX** development and b
 
 ## Requirements
 
-In order to walk through this workshop you need to develop the integration with REST API. You need [Node.js](https://nodejs.org/en/download/).
+![Node.js](./images/nodejs.png)
 
-We are going to install Node.js, if you have done this you can move ahead.
+In order to walk through this workshop you need to develop the integration with REST API. You need [Node.js](https://nodejs.org/en/) for that.
 
-[Download Node.js LTS](https://nodejs.org/en/) from the official website. It is fine if the version is higher than the one in the screenshot.
+Node.js is an asynchronous event-driven JavaScript runtime. Node.js is designed to build scalable network applications.
+
+We are going to install Node.js, if you have done this you can skip this step.
+
+[Download Node.js LTS](https://nodejs.org/en/download/) from the official website. It is fine if the version is higher than the one in the screenshot.
 
 ![Node Dowload](./images/node_download.png)
 

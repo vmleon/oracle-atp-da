@@ -4,6 +4,26 @@
 
 This lab walks you through the steps to get started using the Oracle Autonomous Transaction Processing Database on Oracle Cloud Infrastructure (OCI). You will provision a new database in just few minutes.
 
+### Self-driving
+
+Automate database provisioning, tuning, and scaling.
+
+Provisions highly available databases, configures and tunes for specific workloads, and scales compute resources when needed, all done automatically.
+
+### Self-securing
+
+Automate data protection and security.
+
+Protect sensitive and regulated data automatically, patch your database for security vulnerabilities, and prevent unauthorized access—all with Oracle Autonomous Database.
+
+### Self-repairing
+
+Automate failure detection, failover, and repair.
+
+Detect and protect from system failures and user errors automatically and provide failover to standby databases with zero data loss.
+
+Perfect for Developers!
+
 ## Create a new Autonomous Transaction Processing
 
 Go to the Autonomous Transaction Processing (ATP) menu:
@@ -30,10 +50,9 @@ CPU and Storage are good with default values, the same for the database version.
 
 Auto scaling you can leave it off but it is a nice feature as the ATP database will scale if the workload is increasing and scale down automatically if the workload reduces. Zero downtime during the process. It's cool, isn't it?
 
-Under the Create Adminisitratior credentials section, provide the **Administrator Password**. Enter any password you wish to use following the specific requirements imposed by ATP.
+Under the Create Administrator credentials section, provide the **Administrator Password**. Enter any password you wish to use following the specific requirements imposed by ATP.
 
 > Reminder: Note your password in a safe location as this cannot be reset.
-
 
 ![ATP Creation](../images/atp_creation_2.png)
 
@@ -54,8 +73,7 @@ Look around the details and get familiar with the buttons and tabs on this page.
 
 You just created an Autonomous Database with the latest features of Oracle Databases.
 
-
-Congratulations, you are ready for the next Lab!
+## Congratulations, you are ready for the next Lab!
 
 ---
 
