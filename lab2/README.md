@@ -125,11 +125,19 @@ Select `TASKS` table on the left and click the tab `Data`, then click `Insert Ro
 
 ![Object Browser Data](../images/apex_object_data.png)
 
-Leave `Id` empty and fill the field `Text` with a task description you like. When you are happy with your new task, click `Create and Create Another` and do the same with another task:
+Leave `Id` empty and fill the field `Text` with a task description you like. 
+
+When you are happy with your new task, click `Create and Create Another` and do the same with another task.
+
+To follow the same example we have created:
+  - Get concert tickets
 
 ![Object Browser Data](../images/apex_object_insert_row_1.png)
 
-Do the same with the second task entry:
+Do the same with the second task entry.
+
+To follow the same example we have created:
+  - Buy bread
 
 ![Object Browser Data](../images/apex_object_insert_row_2.png)
 
@@ -212,7 +220,18 @@ Confirm the Handler has been created and copy the **Full URL**:
 
 ## It works
 
-We will use the full URL for testing on the browser to verify the GET Handler works. Go to your favorite browser and paste the URL you copied:
+We will use the full URL for testing on the browser to verify the GET Handler works. Go to your favorite browser and paste the URL you copied.
+
+If you use **Google Chrome** you will see the image like that:
+
+![](../images/apex_rest_browser_test1.png)
+
+
+If you use **Mozilla Firefox** you will see the image like that:
+
+![](../images/apex_rest_browser_test0.png)
+
+If you have a **browser extention to visualize JSON** you will see the information like this:
 
 ![](../images/apex_rest_browser_test.png)
 
