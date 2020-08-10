@@ -57,13 +57,13 @@ You are also interested in exploring modern and quick **APEX** development and b
 
 ## Requirements
 
-![Node.js](./images/nodejs.png)
-
 In order to walk through this workshop you need to develop the integration with REST API. You need [Node.js](https://nodejs.org/en/) for that.
 
 Node.js is an asynchronous event-driven JavaScript runtime. Node.js is designed to build scalable network applications.
 
 We are going to install Node.js, if you have done this you can skip this step.
+
+![Node.js](./images/nodejs.png)
 
 [Download Node.js LTS](https://nodejs.org/en/download/) from the official website. It is fine if the version is higher than the one in the screenshot.
 
