@@ -59,7 +59,7 @@ Usage:
 cd tasks-cc
 ```
 
-This custom component is going to make REST API calls to fetch information from SODA. To do so, we need to install an extra library called [node-fetch](https://www.npmjs.com/package/node-fetch).
+This custom component is going to make REST API calls to fetch information from APEX. To do so, we need to install an extra library called [node-fetch](https://www.npmjs.com/package/node-fetch).
 
 Install the library with the following command:
 
@@ -71,13 +71,17 @@ Edit the file `package.json` in `tasks-cc` folder. You can use your favorite tex
 
 ![Location package.json](../images/node_package_json.png)
 
-We have to change the name of the package from the generic `my-custom-component` to something more personalized like `tasks-cc`. Check line number 2:
+We have to **change the name** of the package from the generic `my-custom-component` to something more personalized like `tasks-cc`. Check line number 2:
 
 ![Package name change](../images/package_name_change.png)
 
-Great, we are now ready to change the code of our custom component implementation:
+**Save** the file with the changes.
 
-Edit the file `tasks.js` and replace the whole content with the following code:
+Great, we are now ready to **change the code** of our **custom component implementation**.
+
+Open the file `tasks.js` with your favourite text editor. You can find this file in the **Components folder**.
+
+Edit the file `tasks.js` and **replace** the whole content with the following code:
 
 ```javascript
 "use strict";
