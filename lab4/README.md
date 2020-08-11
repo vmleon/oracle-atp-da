@@ -83,8 +83,6 @@ Great, we are now ready to **change the code** of our **custom component impleme
 
 **Edit** the file `tasks.js` and **replace** the whole content with the following code:
 
-<!-- PRISCILA -->
-
 ```javascript
 "use strict";
 
@@ -135,7 +133,7 @@ module.exports = {
 
 **IMPORTANT**:
 
-**Remember** to change the `<URL_copied_from_APEX>` with the URL copied on APEX in Lab 2.
+**Remember** to change the `<URL_copied_from_APEX>` with the **URL** copied on **APEX** in **Lab 2**.
 
 ![Copy URL from APEX](../images/apex_copy_url.png)
 
@@ -149,7 +147,7 @@ Don't forget the **save** tasks.js file.
 
 ## Deploy the custom component
 
-Custom Components can be deployed in different ways:
+**Custom Components** can be deployed in different ways:
 
 - **Local Component Container**: single instance deployment as custom component resides in skill bot
 - **Mobile Hub**: multi-channel environment with mobile extras and shared instance deployment.
@@ -163,7 +161,7 @@ Package your **Custom Component** by running on your Command Prompt or Terminal:
 npm pack
 ```
 
-The output looks like this:
+The **output** looks like this:
 
 ![Pack result](../images/node_result.png)
 
