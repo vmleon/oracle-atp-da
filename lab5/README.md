@@ -176,7 +176,7 @@ states:
       return: unresolved
 ```
 
-**XXX** Explain every part of the Flows definition.
+<!-- TODO Explain every part of the Flows definition.-->
 
 It should look like:
 
