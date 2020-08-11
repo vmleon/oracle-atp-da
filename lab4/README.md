@@ -79,9 +79,9 @@ We have to **change the name** of the package from the generic `my-custom-compon
 
 Great, we are now ready to **change the code** of our **custom component implementation**.
 
-Open the file `tasks.js` with your favourite text editor. You can find this file in the **Components folder**.
+**Open** the file `tasks.js` with your favourite text editor. You can find this file in the **components folder**.
 
-Edit the file `tasks.js` and **replace** the whole content with the following code:
+**Edit** the file `tasks.js` and **replace** the whole content with the following code:
 
 <!-- PRISCILA -->
 
@@ -133,9 +133,11 @@ module.exports = {
 };
 ```
 
-IMPORTANT:
+**IMPORTANT**:
 
-Remember to change the `<URL_copied_from_APEX>` with the URL copied on APEX.
+**Remember** to change the `<URL_copied_from_APEX>` with the URL copied on APEX in Lab 2.
+
+![Copy URL](../images/apex_rest_handler_create_success.png)
 
 It should look like this:
 
@@ -143,6 +145,7 @@ It should look like this:
 const ordsURL =
   "https://xxx-yyy.adb.region.oraclecloudapps.com/ords/tasks/oda/tasks/";
 ```
+Don't forget the **save** tasks.js file.
 
 ## Deploy the custom component
 
