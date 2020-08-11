@@ -18,7 +18,7 @@ Click on `+ New Skill` button to start:
 
 ![Create Skill](../images/skill_1.png)
 
-Fill the information like in the image and **click** `Create` button:
+Fill the information like in the image and click **Create** button:
 
 ![Create Skill](../images/skill_2.png)
 
@@ -58,7 +58,7 @@ The web form to upload the file will **show up**.
 
 Oracle Digital Assistant's underlying **Natural Language Processing (NLP)** engine doesn't inherently know about the business or task that a skill is supposed to assist with. For the skill to understand what it should react to, you need to define intents and examples (utterances) for how a user would request a specific intent.
 
-**Create** Greeting intent, click `+ Intent`:
+**Create** Greeting intent, click **+ Intent**:
 
 ![Intent Create](../images/intents_1.png)
 
@@ -113,17 +113,17 @@ You will see the `YAML` file that define the behaviour of your **Skill**.
 
 ```yaml
 metadata:
-  platformVersion: "1.1"
+  platformVersion: '1.1'
 main: true
 name: mytasks
 
 context:
   variables:
-    iResult: "nlpresult"
+    iResult: 'nlpresult'
 
 states:
   intent:
-    component: "System.Intent"
+    component: 'System.Intent'
     properties:
       variable: iResult
     transitions:
@@ -136,7 +136,7 @@ states:
     component: System.Output
     properties:
       translate: false
-      text: "Greetings, hooman!"
+      text: 'Greetings, hooman!'
       keepTurn: false
     transitions:
       return: greeting
@@ -149,22 +149,22 @@ states:
         failure: failureState
 
   successState:
-    component: "System.Output"
+    component: 'System.Output'
     properties:
       text: |-
         Success!
       keepTurn: false
     transitions:
-      return: "done"
+      return: 'done'
 
   failureState:
-    component: "System.Output"
+    component: 'System.Output'
     properties:
       text: |-
         Failed! Check the logs.
       keepTurn: false
     transitions:
-      return: "done"
+      return: 'done'
 
   unresolved:
     component: System.Output
@@ -186,7 +186,7 @@ It should look like:
 
 ![Flows 4](../images/flows_4.png)
 
-**Click** `Train` button to run the machine learning algorithm.
+Click **Train** button to run the machine learning algorithm.
 
 ![Flows 5](../images/flows_5.png)
 

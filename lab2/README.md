@@ -121,27 +121,33 @@ Go to the Top Menu on **SQL Workshop**, click **Object Browser**.
 
 ![](../images/apex_object_browser_menu.png)
 
-Select `TASKS` table on the left and click the tab `Data`, then click `Insert Row`:
+Select **TASKS** table on the left and click the tab **Data**, then click **Insert Row**:
 
 ![Object Browser Data](../images/apex_object_data.png)
 
-Leave `Id` empty and fill the field `Text` with a task description you like. 
+Leave `Id` empty and fill the field `Text` with a task description you like.
 
-When you are happy with your new task, click `Create and Create Another` and do the same with another task.
+When you are happy with your new task, click **Create and Create Another** and do the same with another task.
 
 To follow the same example we have created:
-  - Get concert tickets
+
+```
+Get concert tickets
+```
 
 ![Object Browser Data](../images/apex_object_insert_row_1.png)
 
 Do the same with the second task entry.
 
 To follow the same example we have created:
-  - Buy bread
+
+```
+Buy bread
+```
 
 ![Object Browser Data](../images/apex_object_insert_row_2.png)
 
-Finally, click `Create` and check the two rows are as expected:
+Finally, click **Create** and check the two rows are as expected:
 
 ![Object Browser Data](../images/apex_object_new_rows.png)
 
@@ -151,11 +157,11 @@ In the main menu, select **SQL Workshop**, click **RESTful Services**.
 
 ![REST Enable Menu](../images/apex_rest_services_menu.png)
 
-Register your APEX schema with ORDS so we can offer a REST API of our tables, click `Register Schema with ORDS`:
+Register your APEX schema with ORDS so we can offer a REST API of our tables, click **Register Schema with ORDS**:
 
 ![REST Enable Register](../images/apex_rest_enable_register.png)
 
-Set the `Schema Alias` name to `tasks` and click `Save Schema Attributes` to confirm:
+Set the **Schema Alias** name to `tasks` and click **Save Schema Attributes** to confirm:
 
 ![REST Enable Save](../images/apex_rest_enable_save2.png)
 
@@ -225,7 +231,6 @@ We will use the full URL for testing on the browser to verify the GET Handler wo
 If you use **Google Chrome** you will see the image like that:
 
 ![](../images/apex_rest_browser_test1.png)
-
 
 If you use **Mozilla Firefox** you will see the image like that:
 
