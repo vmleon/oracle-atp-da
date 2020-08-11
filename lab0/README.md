@@ -22,7 +22,7 @@ As part of your sign up to this lab, you will have been provided a link to **Sig
 - Use the **following URL** - [>> Sign Up for Oracle Cloud <<](http://bit.ly/34TzwGf)
 - Use a **personal email** address that you will use during all the workshop process.
 
-On the Sign Up page, enter your **email address**, select your **Country/Territory** and click "**Next**".
+On the Sign Up page, select your **Country/Territory**, enter your **email address** and click "**Next**".
 
 ![Sign Up Page](../images/oracle_cloud_free_tier1.png)
 
