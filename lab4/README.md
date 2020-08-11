@@ -137,7 +137,7 @@ module.exports = {
 
 **Remember** to change the `<URL_copied_from_APEX>` with the URL copied on APEX in Lab 2.
 
-![Copy URL](../images/apex_rest_handler_create_success2.png)
+![Copy URL from APEX](../images/apex_copy_url.png)
 
 It should look like this:
 
