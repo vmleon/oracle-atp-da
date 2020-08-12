@@ -259,11 +259,11 @@ Select **TASKS** table on the left of the APEX page and **click** the tab **Data
 Now **Type** `show me my tasks`:
 
 
-![Final Test](../images/test_final_2.png)
+![Final Test](../images/test_final_2_new.png)
 
 **Check** the new result.
 
-![Final Test](../images/test_final_3.png)
+![Final Test](../images/test_final_3_new.png)
 
 # Congratulations! Well done!
 
