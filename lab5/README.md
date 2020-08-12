@@ -87,27 +87,25 @@ We will start working on the **Intent** page. The page by default looks like thi
 **Modify** default values for:
 - **Conversation Name**: Greeting
 - **Name**: Greeting
-- **Utterances to Add**:
-    - `hi`
-    - `hello`
+- **Utterances to Add**: In this field is where you have ti type the different Greetings that you want to include as part of the Intent. Type on this field `hi` and click enter. Wait to be added as part of the intents. Type on the same place`hello` and wait to be added as before.
 
+The two **Itents** that you added a few seconds ago will be visible in the page. Check the following scrennshoot to confirm.
 
 ![Intent Greeting](../images/intents_3.png)
 
-**Click** on `+ Intent` on the same screen.
+**Click** on `+ Intent` on the same screen to add more Intents to the conversation.
 
 ![Intent Create](../images/intents_4.png)
 
-**Modify** default values for `ListTasks` intent.
+**Modify** default values for:
+- **Conversation Name**: ListTasks
+- **Name**: ListTasks
+- **Utterances to Add**: In this field is where you have ti type the different Greetings that you want to include as part of the Intent. Type on this field `list my tasks` and click enter. Wait to be added as part of the intents. Type on the same filed `show me my tasks` and wait to be added as before. And finally type on the same filed ` tasks` and wait to be added as before.
 
-<!-- TODO -->
-
-- **Utterances to Add**:
-    - `tasks`
-    - `show me my tasks`
-    - `list my tasks`
+The three **Itents** that you added a few seconds ago will be visible in the page. Check the following scrennshoot to confirm.
 
 ![Intent default](../images/intents_5.png)
+
 
 ## Put everything together
 
