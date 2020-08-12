@@ -24,7 +24,7 @@ In this lab, we're starting from scratch. So the first thing you'll do is **crea
 
 Click on `+ New Skill` button to start:
 
-![Create Skill](../images/images/oda_lab5_3.png)
+![Create Skill](../images/oda_lab5_3.png)
 
 Fill the information like in the image and click **Create** button:
 
