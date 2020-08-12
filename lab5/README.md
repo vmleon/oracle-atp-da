@@ -102,11 +102,10 @@ We will start working on the **Intent** page. The page by default looks like thi
 
 <!-- TODO -->
 
-- Utterances to Add:
-
-- `tasks`
-- `show me my tasks`
-- `list my tasks`
+- **Utterances to Add**:
+    - `tasks`
+    - `show me my tasks`
+    - `list my tasks`
 
 ![Intent default](../images/intents_5.png)
 
