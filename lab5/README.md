@@ -52,9 +52,9 @@ Select `Upload a component package file (a .tgz file created by running bots-nod
 ![Create Skill](../images/cc_import_3.png)
 
 **Fill** the rest of the information and remember to `Enable Component Logging` with the toggle button
-  - Name: tasks
-  - Description: Tasks Custom Component
-  - Embedded Container is selected by default. Leave it like that.
+  - **Name**: tasks
+  - **Description**: Tasks Custom Component
+  - **Embedded Container** is selected by default. Leave it like that.
 
 Finally **Create** the Service.
 
@@ -85,9 +85,9 @@ We will start working on the **Intent** page. The page by default looks like thi
 ![Intent Default values](../images/intents_2.png)
 
 **Modify** default values for:
-- Conversation Name: Greeting
-- Name: Greeting
-- Utterances to Add:
+- **Conversation Name**: Greeting
+- **Name**: Greeting
+- **Utterances to Add**:
     - `hi`
     - `hello`
 
