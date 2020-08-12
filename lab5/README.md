@@ -43,7 +43,7 @@ Import Custom Component is very simple.
 The web form to **upload** the file will **show up**. 
 We will fill out all the information of this web form.
 
-Select `Upload a component package file (a .tgz file created by running bots-node-sdk pack or npm pack) or drag it here.`. 
+Select `Upload a component package file (a .tgz file created by running bots-node-sdk pack or npm pack) or drag it here.` 
 
 ![Create Skill](../images/cc_import_2.png)
 
@@ -87,7 +87,7 @@ We will start working on the **Intent** page. The page by default looks like thi
 **Modify** default values for:
 - **Conversation Name**: Greeting
 - **Name**: Greeting
-- **Utterances to Add**: In this field is where you have ti type the different Greetings that you want to include as part of the Intent. Type on this field `hi` and click enter. Wait to be added as part of the intents. Type on the same place`hello` and wait to be added as before.
+- **Utterances to Add**: In this field is where you have ti type the different Greetings that you want to include as part of the Intent. Type on this field `hi` and click enter. Wait to be added as part of the intents. Type on the same field `hello` and wait to be added as before.
 
 The two **Itents** that you added a few seconds ago will be visible in the page. Check the following scrennshoot to confirm.
 
