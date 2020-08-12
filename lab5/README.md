@@ -22,11 +22,11 @@ Go to **Digital Assistant Dashboard** as we did on **Lab 3**. As a reminder chec
 
 In this lab, we're starting from scratch. So the first thing you'll do is **create** a new skill.
 
-Click on `+ New Skill` button to start:
+**Click** on `+ New Skill` button to start:
 
 ![Create Skill](../images/oda_lab5_3.png)
 
-Fill the information like in the image and click **Create** button:
+**Fill** the information like in the image and click **Create** button:
 
 ![Create Skill](../images/skill_2.png)
 
@@ -76,7 +76,7 @@ Oracle Digital Assistant's underlying **Natural Language Processing (NLP)** engi
 
 Let's create a **Greeting Intent**.
 
-**Go** to the **Intent** view ![Components](../images/intents-icon.png) on the left menu. Select  `+ Intent`. 
+**Go** to the **Intent** view ![Intents](../images/intents-icon.png) on the left menu. Select  `+ Intent`. 
 
 ![Intent Create](../images/intents_1.png)
 
@@ -111,19 +111,18 @@ The three **Itents** that you added a few seconds ago will be visible in the pag
 
 Time to **integrate** your **Custom Component with the Intent** `ListTasks` created before.
 
-On the left menu, you will find the **Flows** entry with this icon:
+**Go** to the **Flows** view ![Flows](../images/flows-menu-item.png) on the left menu.
 
-![Flows](../images/flows-menu-item.png)
 
-You will see the `YAML` file that define the behaviour of your **Skill**.
+You will **see** the `YAML` file that define the behaviour of your **Skill**.
 
 ![Flows 1](../images/flows_1.png)
 
-**Delete** the initial content.
+**Delete** the full content of the **Flows** section and leave the canvas **empty**.
 
 ![Flows 2](../images/flows_2.png)
 
-**Replace** it with:
+**Copy** this `YAML` content:
 
 ```yaml
 metadata:
@@ -192,45 +191,56 @@ states:
 
 <!-- TODO Explain every part of the Flows definition.-->
 
-It should look like:
+The **Flows** section should look like this one:
 
 ![Flows 3](../images/flows_3.png)
 
-**Make sure** all the syntax is correct on the flow by clicking `Validate` button.
+**Make sure** the syntax is correct. **Click** on the `Validate` button. **Be sure** that you get the **correct validation message** on the top of the page as you can see on the image below:
 
 ![Flows 4](../images/flows_4.png)
 
-Click **Train** button to run the machine learning algorithm.
+Click **Train** button to run the **Machine Learning Algorithm**.
 
 ![Flows 5](../images/flows_5.png)
 
-**Wait** for the confirmation.
+**Be sure** that you get the **correct train message** confirmation on the top of the page as you can see on the image below:
 
 ![Flows 6](../images/flows_6.png)
 
-**Run** the test of the skill:
+**Run** the test of the skill clicking the `Play` button next to `Validate`.
+
+![Run Flows](../images/flows_3.png)
+
+The way to test the conversation is typing any of the **Intents** that we have created on this Lab5. 
+
+For example: Type `hi` and wait for the bot answer. In this case the answer is `Greetings, hooman!`. Type the next Intent `list my tasks` and wait for the bot answer. Now the answer is `Get concert tickets` and `Buy bread`.
 
 ![Test](../images/tests_chat.gif)
 
 > NOTE:
 >
-> If you see an error message at this point, it means there is a problem with the custom component code.
+> If you see an **error message** at this point, it means there is a **problem** with the **Custom Component Code**.
 >
 > To get more information about the issue, check the logs.
 >
-> Go to Components ![Components Icon](../images/components-icon.png) on the left menu and click on Diagnostics for your Custom Component, then on **View Logs**.
+> Go to **Components** view ![Components Icon](../images/components-icon.png) on the left menu and **click** on **Diagnostics** for your **Custom Component**, then on **View Logs**.
 >
 > ![View Logs](../images/cc_view_logs.png)
+>
+> The **result** should be something like this:
+>  ![View Logs](../images/service_log.png)
+
+---
 
 ## It works
 
-To see how we request against the database we can add a new item.
+To see how we **request** against the **database**, we can **add** a new item.
 
-**Insert** your third element in the collection by going to APEX and on the Top Menu on **SQL Workshop**, click **Object Browser**:
+**Insert** your third element in the collection of data by going to **APEX** and on the Top Menu on **SQL Workshop**, click **Object Browser** as we did on **Lab 2**:
 
 ![](../images/apex_object_browser_menu_clean.png)
 
-Select **TASKS** table on the left and click the tab **Data**, then click **Insert Row**:
+Select **TASKS** table on the left of the APEX page and **click** the tab **Data**, then click **Insert Row**:
 
 ![Object Browser Data](../images/apex_object_data_inser_new.png)
 
@@ -242,15 +252,16 @@ Select **TASKS** table on the left and click the tab **Data**, then click **Inse
 
 ![Object Browser Data](../images/apex_object_data_insert_row_created.png)
 
-**Run** the chat again and reset the previous conversation.
+**Run** the chat again but before **reset** the previous **conversation** on the **reset** buttom.
 
-![Final Test](../images/test_final_1.png)
+![Reset Conversation](../images/reset_conversation.png)
 
-**Type** `show me my tasks`:
+Now **Type** `show me my tasks`:
+
 
 ![Final Test](../images/test_final_2.png)
 
-**Check** the result.
+**Check** the new result.
 
 ![Final Test](../images/test_final_3.png)
 
