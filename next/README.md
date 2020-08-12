@@ -19,10 +19,9 @@ Remember that you will see **Always Free** logo next to the name of your databas
 
 ![Always Free Logo](../images/always_free_logo.png)
 ![Always Free Database Details](../images/always_free_upgrade.png)
-
 ![Always Free Database Details More Actions](../images/always_free_upgrade_actions.png)
-
-![Always Free Database Details More Actions](../images/always_free_upgrade_confirmation.png)
+![Always Free Database Details Confirmation](../images/always_free_upgrade_confirmation.png)
+![Always Free Database Details Confirmation Updating](../images/always_free_upgrade_confirmation_updating.png)
 
 
 ---

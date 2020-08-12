@@ -44,7 +44,9 @@ Make sure you select **Transaction Processing** and **Shared Infrastructure**.
 
 ![ATP Creation](../images/atp_creation_1.png)
 
-You can select **Always Free** configuration to start enjoying your Free Autonomous Database.
+You can select **Always Free** configuration to start enjoying your Free Autonomous Database. You will have visible the **Always Free** logo next to the name of your database:
+
+![Always Free Logo](../images/always_free_logo.png)
 
 CPU and Storage are good with default values, the same for the database version.
 
@@ -68,6 +70,10 @@ After few seconds you will have your new Autonomous Database up and running.
 Look around the details and get familiar with the buttons and tabs on this page.
 
 ![ATP Details](../images/atp_details.png)
+
+Remember: You will have visible the **Always Free** logo next to the name of your database:
+
+![Always Free Logo](../images/always_free_logo.png)
 
 ## It works
 
