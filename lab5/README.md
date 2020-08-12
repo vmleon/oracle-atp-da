@@ -14,7 +14,7 @@ We have to access to **Digital Assistant** section in the **Oracle Cloud Dashboa
 
 ![ODA Menu](../images/oda_lab5_1.png)
 
-Later on to the Digital Assistant Dashboard as we did on Lab 3. As a reminder check the following screenshoot:
+Go to **Digital Assistant Dashboard** as we did on **Lab 3**. As a reminder check the following screenshoot:
 
 ![ODA Menu Service Console](../images/oda_lab5_2.png).
 
@@ -36,27 +36,35 @@ Fill the information like in the image and click **Create** button:
 
 Import Custom Component is very simple.
 
-**Go** to the **Components** view ![Components](../images/components-icon.png) on the left menu.
+**Go** to the **Components** view ![Components](../images/components-icon.png) on the left menu. Select  `+ Service`.
 
 ![Create Skill](../images/cc_import_1.png)
 
-The web form to upload the file will **show up**.
+The web form to **upload** the file will **show up**. 
+We will fill out all the information of this web form.
+
+Select `Upload a component package file (a .tgz file created by running bots-node-sdk pack or npm pack) or drag it here.`. 
 
 ![Create Skill](../images/cc_import_2.png)
 
-**Upload** `tasks-cc-1.0.0.tgz` file.
+**Upload** `tasks-cc-1.0.0.tgz` file that we created before. Remember that the tgz file is on the tasks-cc folder. 
 
 ![Create Skill](../images/cc_import_3.png)
 
-**Fill** the information and remember to `Enable Component Logging` with the toggle button.
+**Fill** the rest of the information and remember to `Enable Component Logging` with the toggle button
+  - Name: tasks
+  - Description: Tasks Custom Component
+  - Embedded Container is selected by default. Leave it like that.
+
+Finally **Create** the Service.
 
 ![Create Skill](../images/cc_import_4.png)
 
-**Wait** for the deployment.
+**Wait** for the deployment to be ready.
 
 ![Create Skill](../images/cc_import_5.png)
 
-**Make sure** the `Status` is `Ready` and you see all the information like in this screenshot.
+**Make sure** the `Status` is `Ready`. You see all the **information** on this page like in this screenshot.
 
 ![Create Skill](../images/cc_import_6.png)
 
@@ -66,22 +74,23 @@ The web form to upload the file will **show up**.
 
 Oracle Digital Assistant's underlying **Natural Language Processing (NLP)** engine doesn't inherently know about the business or task that a skill is supposed to assist with. For the skill to understand what it should react to, you need to define intents and examples (utterances) for how a user would request a specific intent.
 
-**Create** Greeting intent, click **+ Intent**:
+Let's create a **Greeting Intent**.
+
+**Go** to the **Intent** view ![Components](../images/intents-icon.png) on the left menu. Select  `+ Intent`. 
 
 ![Intent Create](../images/intents_1.png)
 
-**Modify** default values.
-
-<!-- TODO -->
-
-Utterances:
-
-- `hi`
-- `hello`
+We will start working on the **Intent** page. The page by default looks like this screenshoot:
 
 ![Intent Default values](../images/intents_2.png)
 
-For `Greeting` intent.
+**Modify** default values for:
+- Conversation Name: Greeting
+- Name: Greeting
+- Utterances to Add:
+    - `hi`
+    - `hello`
+
 
 ![Intent Greeting](../images/intents_3.png)
 
@@ -93,7 +102,7 @@ For `Greeting` intent.
 
 <!-- TODO -->
 
-Utterances:
+- Utterances to Add:
 
 - `tasks`
 - `show me my tasks`
