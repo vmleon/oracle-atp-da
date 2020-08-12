@@ -56,7 +56,7 @@ Under the Create Administrator credentials section, provide the **Administrator 
 
 ![ATP Creation](../images/atp_creation_2.png)
 
-Leave **Allow Secure Access From Everywhere** for the workshop and **Bring your Own License (BYOL)**. You will upload your license later when needed.
+Leave **Allow Secure Access From Everywhere** for the workshop and **License Included**.
 
 Click **Create Autonomous Database** button.
 

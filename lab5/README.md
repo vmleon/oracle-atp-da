@@ -10,13 +10,21 @@ As part of this process, you will:
 - **Import** your Custom Component (the `tgz` file you generated with `npm pack`).
 - **Create** two intents: `Greeting` and `ListTasks`.
 
+We have to access to **Digital Assistant** section in the **Oracle Cloud Dashboard**.
+
+![ODA Menu](../images/oda_lab5_1.png)
+
+Later on to the Digital Assistant Dashboard as we did on Lab 3. As a reminder check the following screenshoot:
+
+![ODA Menu Service Console](../images/oda_lab5_2.png).
+
 ## Build your first Skill
 
 In this lab, we're starting from scratch. So the first thing you'll do is **create** a new skill.
 
 Click on `+ New Skill` button to start:
 
-![Create Skill](../images/skill_1.png)
+![Create Skill](../images/images/oda_lab5_3.png)
 
 Fill the information like in the image and click **Create** button:
 
