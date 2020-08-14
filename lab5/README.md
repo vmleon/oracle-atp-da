@@ -214,9 +214,9 @@ Click **Train** button to run the **Machine Learning Algorithm**.
 
 The way to test the conversation is typing any of the **Intents** that we have created on this Lab5.
 
-For example: Type `hi` and wait for the bot answer. In this case the answer is `Greetings, hooman!`. Type the next Intent `list my tasks` and wait for the bot answer. Now the answer is `Get concert tickets` and `Buy bread`.
+For example: say `hi` and wait for the bot answer. In this case the answer is `Greetings, hooman!`. Type the next Intent `show me my tasks` and wait for the bot answer. Now the answer is `Get concert tickets` and `Buy bread`.
 
-![Test](../images/tests_chat.gif)
+![Test](../images/oda_test_1.gif)
 
 > NOTE:
 >
@@ -253,17 +253,11 @@ Select **TASKS** table on the left of the APEX page and **click** the tab **Data
 
 ![Object Browser Data](../images/apex_object_data_insert_row_created.png)
 
-**Run** the chat again but before **reset** the previous **conversation** on the **reset** buttom.
+**Run** the chat again but before **reset** the previous **conversation**.
 
-![Reset Conversation](../images/reset_conversation.png)
+For example: reset the conversation by clicking on **Reset** then say `hi` and wait for the bot answer. Type the next Intent `show me my tasks` and wait for the bot answer. Now the answer is `Get concert tickets`, `Buy bread`, and `New Item!`.
 
-Now **Type** `show me my tasks`:
-
-![Final Test](../images/test_final_2_new.png)
-
-**Check** the new result.
-
-![Final Test](../images/test_final_3_new.png)
+![Test](../images/oda_test_2.gif)
 
 # Congratulations! Well done!
 
