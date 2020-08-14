@@ -23,4 +23,4 @@ Check [Oracle Tech Exchange](https://fnimphiu.github.io/OracleTechExchange/) con
 
 ---
 
-[**<< Go to Lab 5**](../lab500/README.md) | [Home](../README.md)
+[**<< Go to Lab 5**](../lab5/README.md) | [Home](../README.md)

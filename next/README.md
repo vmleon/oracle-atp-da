@@ -2,10 +2,7 @@
 
 ![Oracle Cloud Pricing](../images/next_banner.png)
 
-I hope you could complete all the labs on this Oracle APEX and Digital Assistant labs and you learn the basic concepts from the technologies that we have use:
-    - **Oracle Autonomous Database**
-    - **Oracle Application Express**
-    - **Oracle Digital Assistant**
+I hope you could complete all the labs on this Oracle APEX and Digital Assistant labs and you learn the basic concepts from the technologies that we have use: - **Oracle Autonomous Database** - **Oracle Application Express** - **Oracle Digital Assistant**
 
 The technologies that we have covered on this workshop are using **Always Free** and **Free Trial** credits so you don't have to pay for the services that you have use.
 
@@ -27,7 +24,7 @@ We will upgrade to Paid License in this step. You can eiether click on the **Ins
 
 ![Always Free Database Details Confirmation](../images/always_free_upgrade_confirmation.png)
 
-After you perform this action, your database will be upgrade to **Paid** subsciption. The update will take a few minutes. 
+After you perform this action, your database will be upgrade to **Paid** subsciption. The update will take a few minutes.
 
 ![Always Free Database Details Confirmation Updating](../images/always_free_upgrade_confirmation_updating.png)
 
@@ -41,4 +38,4 @@ You have learnd how to Updgrade your Always Free Account to a subsciption model!
 
 ---
 
-[**<< Go to Lab 5**](../lab500/README.md) | [Home](../README.md)
+[**<< Go to Lab 5**](../lab5/README.md) | [Home](../README.md)
