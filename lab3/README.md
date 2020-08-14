@@ -63,13 +63,13 @@ And then click in **Continue** on the **Single Sign-On (SSO)** side:
 
 Add your **Username**, **Password** and you are ready to visit **Oracle Digital Assistant Home** page.
 
-You will be on the Oracle Digital Assitant **Dashboard** where you can start building your bots.
+You will be on the Oracle Digital Assistant **Dashboard** where you can start building your bots.
 
 ![ODA Menu](../images/oda_5.png)
 
 ## Explore your Digital Assistant
 
-You can always **Watch Videos** on the **Learn** section at the bottom and explore the documentation of Oracle Digital Assitant by following the links on the dashboard.
+You can always **Watch Videos** on the **Learn** section at the bottom and explore the documentation of Oracle Digital Assistant by following the links on the dashboard.
 
 ## It works
 

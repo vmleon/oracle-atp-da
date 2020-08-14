@@ -47,7 +47,7 @@ Sign in as the **ATP_ODA** user by selecting the icon on the centre of the scree
 
 ![ORDS](../images/apex_workspace5.png)
 
-Add the **name of the worspace**, **user name** and **password**: **ATP_ODA** and click **Sign in**.
+Add the **name of the workspace**, **user name** and **password**: **ATP_ODA** and click **Sign in**.
 
 ![ORDS](../images/apex_workspace7.png)
 
@@ -234,7 +234,7 @@ If you use **Mozilla Firefox** you will see the image like that:
 
 ![](../images/apex_rest_browser_test0.png)
 
-If you have a **browser extention to visualize JSON** you will see the information like this:
+If you have a **browser extension to visualize JSON** you will see the information like this:
 
 ![](../images/apex_rest_browser_test.png)
 

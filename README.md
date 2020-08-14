@@ -90,7 +90,7 @@ We are going to **install** Node.js, if you have done this you can skip this ste
 
 [Download Node.js LTS](https://nodejs.org/en/download/) from the official website. It is fine if the version is higher than the one in the screenshot.
 
-![Node Dowload](./images/node_download.png)
+![Node Download](./images/node_download.png)
 
 We are going to install on **Windows** but it works in a similar way in **Linux** and **MacOS**.
 

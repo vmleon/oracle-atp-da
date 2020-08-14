@@ -20,7 +20,7 @@ You can package related **Custom Components** together.
 
 Oracle provides **Oracle Bots Node.js SDK**, a free utility that makes custom components development very easy.
 
-> We had explained the instalation steps in the Pre-requisites section at the very begining of this lab.
+> We had explained the installation steps in the Pre-requisites section at the very beginning of this lab.
 
 Ready to create your **Custom Component** scaffolding.
 
@@ -79,7 +79,7 @@ We have to **change the name** of the package from the generic `my-custom-compon
 
 Great, we are now ready to **change the code** of our **custom component implementation**.
 
-**Open** the file `tasks.js` with your favourite text editor. You can find this file in the **components folder**.
+**Open** the file `tasks.js` with your favorite text editor. You can find this file in the **components folder**.
 
 **Edit** the file `tasks.js` and **replace** the whole content with the following code:
 

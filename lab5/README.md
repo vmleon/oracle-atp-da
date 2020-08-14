@@ -14,7 +14,7 @@ We have to access to **Digital Assistant** section in the **Oracle Cloud Dashboa
 
 ![ODA Menu](../images/oda_lab5_1.png)
 
-Go to **Digital Assistant Dashboard** as we did on **Lab 3**. As a reminder check the following screenshoot:
+Go to **Digital Assistant Dashboard** as we did on **Lab 3**. As a reminder check the following screenshot:
 
 ![ODA Menu Service Console](../images/oda_lab5_2.png).
 
@@ -81,7 +81,7 @@ Let's create a **Greeting Intent**.
 
 ![Intent Create](../images/intents_1.png)
 
-We will start working on the **Intent** page. The page by default looks like this screenshoot:
+We will start working on the **Intent** page. The page by default looks like this screenshot:
 
 ![Intent Default values](../images/intents_2.png)
 
@@ -91,7 +91,7 @@ We will start working on the **Intent** page. The page by default looks like thi
 - **Name**: Greeting
 - **Utterances to Add**: In this field is where you have ti type the different Greetings that you want to include as part of the Intent. Type on this field `hi` and click enter. Wait to be added as part of the intents. Type on the same field `hello` and wait to be added as before.
 
-The two **Itents** that you added a few seconds ago will be visible in the page. Check the following scrennshoot to confirm.
+The two **Intents** that you added a few seconds ago will be visible in the page. Check the following screenshot to confirm.
 
 ![Intent Greeting](../images/intents_3.png)
 
@@ -105,7 +105,7 @@ The two **Itents** that you added a few seconds ago will be visible in the page.
 - **Name**: ListTasks
 - **Utterances to Add**: In this field is where you have ti type the different Greetings that you want to include as part of the Intent. Type on this field `list my tasks` and click enter. Wait to be added as part of the intents. Type on the same filed `show me my tasks` and wait to be added as before. And finally type on the same filed `tasks` and wait to be added as before.
 
-The three **Itents** that you added a few seconds ago will be visible in the page. Check the following scrennshoot to confirm.
+The three **Intents** that you added a few seconds ago will be visible in the page. Check the following screenshot to confirm.
 
 ![Intent default](../images/intents_5.png)
 
@@ -115,7 +115,7 @@ Time to **integrate** your **Custom Component with the Intent** `ListTasks` crea
 
 **Go** to the **Flows** view ![Flows](../images/flows-menu-item.png) on the left menu.
 
-You will **see** the `YAML` file that define the behaviour of your **Skill**.
+You will **see** the `YAML` file that define the behavior of your **Skill**.
 
 ![Flows 1](../images/flows_1.png)
 
