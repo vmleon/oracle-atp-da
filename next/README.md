@@ -1,4 +1,11 @@
-# Next Steps: Upgrade Instances to Paid
+# Next Steps
+
+- [Next Steps](#next-steps)
+  - [Upgrade Instances to Paid](#upgrade-instances-to-paid)
+  - [Want to learn more?](#want-to-learn-more)
+  - [Troubleshooting](#troubleshooting)
+
+## Upgrade Instances to Paid
 
 ![Oracle Cloud Pricing](../images/next_banner.png)
 
@@ -32,9 +39,24 @@ You can see that **Instance Type** information has changed from **Free Upgrate t
 
 ![Always Free Database Details Paid](../images/always_free_upgrade_paid.png)
 
-## It works
-
 You have learnd how to Updgrade your Always Free Account to a subsciption model!
+
+## Want to learn more?
+
+If you enjoy the workshop, give me a star on Github: [click here](https://github.com/vmleon/oracle-atp-da)!
+![Github start](../images/github.png)
+
+Please, help us to improve. [Create an issue](https://github.com/vmleon/oracle-atp-da/issues) if you think something is not quite right.
+
+Learn about [Autonomous Database](https://github.com/vmleon/OracleATPGettingStarted) for developers and operators (Workshop)
+
+Learn Kubernetes with [Oracle Kubernetes Engine](https://github.com/vmleon/OKE-first-steps) (Workshop)
+
+Learn about HTTP security with [Oracle Cloud Web Application Firewall](https://github.com/vmleon/Oracle-WAF-Demo) (Workshop)
+
+Check [Oracle Tech Exchange](https://fnimphiu.github.io/OracleTechExchange/) contains a lot of short tutorials about Oracle Digital Assistant
+
+## Troubleshooting
 
 ---
 

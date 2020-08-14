@@ -20,7 +20,7 @@ You are also interested in exploring modern and quick **APEX** development and b
 
 - Create Your Free Trial Account
 - Sign in to Your Account
-  
+
 [Lab 1: Create Autonomous Database](lab1/README.md)
 
 - Create Your Autonomous Database
@@ -50,8 +50,9 @@ You are also interested in exploring modern and quick **APEX** development and b
 - Create Intents
 - Put Everything Together
 
-[Appendix](appendix/README.md)
+[Next Steps](next/README.md)
 
+- Upgrade Instances to Paid
 - Want to Learn More?
 - Troubleshooting
 
@@ -68,6 +69,7 @@ As a **Windows user** you need to type on the **Windows Search** Icon:
 ```
 cmd
 ```
+
 and select **Command Prompt**.
 
 ![Windows search Terminal](./images/cmd_1.png)
@@ -79,7 +81,6 @@ That will open the Command Prompt/Terminal so you are ready to go.
 [Here you can find a basic guidance of commands that you can use on the terminal.](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
 
 Don't worry all the commands that we will need on the lab are part of the code so you don't need to learn any additional one.
-
 
 ### Node.js Installation
 
@@ -126,7 +127,6 @@ npx @oracle/bots-node-sdk -v
 Like this:
 
 ![Node Versions](./images/node_versions.png)
-
 
 At this point, you are ready to start learning!
 
