@@ -43,11 +43,9 @@ Select **Create Workspace**.
 
 You will be returned to the Oracle APEX administration page, and a message will be displayed "**Workspace Created**".
 
-![ORDS](../images/apex_workspace5.png)
-
 Sign in as the **ATP_ODA** user by selecting the icon on the centre of the screen where you can see the name of the user, **ATP_ODA**.
 
-![ORDS](../images/apex_workspace6.png)
+![ORDS](../images/apex_workspace5.png)
 
 Add the **name of the worspace**, **user name** and **password**: **ATP_ODA** and click **Sing in**.
 
