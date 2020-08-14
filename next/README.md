@@ -33,7 +33,7 @@ After you perform this action, your database will be upgrade to **Paid** subscip
 
 You can see that **Instance Type** information has changed from **Free Upgrate to Paid** to **Paid**:
 
-![Always Free Database Details Paid](../images/always_free_upgrade_confirmation_paid.png)
+![Always Free Database Details Paid](../images/always_free_upgrade_paid.png)
 
 ## It works
 
