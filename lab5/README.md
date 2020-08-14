@@ -36,25 +36,26 @@ In this lab, we're starting from scratch. So the first thing you'll do is **crea
 
 Import Custom Component is very simple.
 
-**Go** to the **Components** view ![Components](../images/components-icon.png) on the left menu. Select  `+ Service`.
+**Go** to the **Components** view ![Components](../images/components-icon.png) on the left menu. Select `+ Service`.
 
 ![Create Skill](../images/cc_import_1.png)
 
-The web form to **upload** the file will **show up**. 
+The web form to **upload** the file will **show up**.
 We will fill out all the information of this web form.
 
-Select `Upload a component package file (a .tgz file created by running bots-node-sdk pack or npm pack) or drag it here.` 
+Select `Upload a component package file (a .tgz file created by running bots-node-sdk pack or npm pack) or drag it here.`
 
 ![Create Skill](../images/cc_import_2.png)
 
-**Upload** `tasks-cc-1.0.0.tgz` file that we created before. Remember that the tgz file is on the tasks-cc folder. 
+**Upload** `tasks-cc-1.0.0.tgz` file that we created before. Remember that the tgz file is on the tasks-cc folder.
 
 ![Create Skill](../images/cc_import_3.png)
 
 **Fill** the rest of the information and remember to `Enable Component Logging` with the toggle button
-  - **Name**: tasks
-  - **Description**: Tasks Custom Component
-  - **Embedded Container** is selected by default. Leave it like that.
+
+- **Name**: tasks
+- **Description**: Tasks Custom Component
+- **Embedded Container** is selected by default. Leave it like that.
 
 Finally **Create** the Service.
 
@@ -76,7 +77,7 @@ Oracle Digital Assistant's underlying **Natural Language Processing (NLP)** engi
 
 Let's create a **Greeting Intent**.
 
-**Go** to the **Intent** view ![Intents](../images/intents-icon.png) on the left menu. Select  `+ Intent`. 
+**Go** to the **Intent** view ![Intents](../images/intents-icon.png) on the left menu. Select `+ Intent`.
 
 ![Intent Create](../images/intents_1.png)
 
@@ -85,6 +86,7 @@ We will start working on the **Intent** page. The page by default looks like thi
 ![Intent Default values](../images/intents_2.png)
 
 **Modify** default values for:
+
 - **Conversation Name**: Greeting
 - **Name**: Greeting
 - **Utterances to Add**: In this field is where you have ti type the different Greetings that you want to include as part of the Intent. Type on this field `hi` and click enter. Wait to be added as part of the intents. Type on the same field `hello` and wait to be added as before.
@@ -98,21 +100,20 @@ The two **Itents** that you added a few seconds ago will be visible in the page.
 ![Intent Create](../images/intents_4.png)
 
 **Modify** default values for:
+
 - **Conversation Name**: ListTasks
 - **Name**: ListTasks
-- **Utterances to Add**: In this field is where you have ti type the different Greetings that you want to include as part of the Intent. Type on this field `list my tasks` and click enter. Wait to be added as part of the intents. Type on the same filed `show me my tasks` and wait to be added as before. And finally type on the same filed ` tasks` and wait to be added as before.
+- **Utterances to Add**: In this field is where you have ti type the different Greetings that you want to include as part of the Intent. Type on this field `list my tasks` and click enter. Wait to be added as part of the intents. Type on the same filed `show me my tasks` and wait to be added as before. And finally type on the same filed `tasks` and wait to be added as before.
 
 The three **Itents** that you added a few seconds ago will be visible in the page. Check the following scrennshoot to confirm.
 
 ![Intent default](../images/intents_5.png)
-
 
 ## Put everything together
 
 Time to **integrate** your **Custom Component with the Intent** `ListTasks` created before.
 
 **Go** to the **Flows** view ![Flows](../images/flows-menu-item.png) on the left menu.
-
 
 You will **see** the `YAML` file that define the behaviour of your **Skill**.
 
@@ -209,9 +210,9 @@ Click **Train** button to run the **Machine Learning Algorithm**.
 
 **Run** the test of the skill clicking the `Play` button next to `Validate`.
 
-![Run Flows](../images/flows_3.png)
+![Run Flows](../images/flows_7.png)
 
-The way to test the conversation is typing any of the **Intents** that we have created on this Lab5. 
+The way to test the conversation is typing any of the **Intents** that we have created on this Lab5.
 
 For example: Type `hi` and wait for the bot answer. In this case the answer is `Greetings, hooman!`. Type the next Intent `list my tasks` and wait for the bot answer. Now the answer is `Get concert tickets` and `Buy bread`.
 
@@ -228,7 +229,7 @@ For example: Type `hi` and wait for the bot answer. In this case the answer is `
 > ![View Logs](../images/cc_view_logs.png)
 >
 > The **result** should be something like this:
->  ![View Logs](../images/service_log.png)
+> ![View Logs](../images/service_log.png)
 
 ---
 
@@ -257,7 +258,6 @@ Select **TASKS** table on the left of the APEX page and **click** the tab **Data
 ![Reset Conversation](../images/reset_conversation.png)
 
 Now **Type** `show me my tasks`:
-
 
 ![Final Test](../images/test_final_2_new.png)
 
