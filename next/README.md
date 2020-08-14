@@ -39,7 +39,6 @@ You can see that **Instance Type** information has changed from **Free Upgrate t
 
 You have learnd how to Updgrade your Always Free Account to a subsciption model!
 
-
 ---
 
 [**<< Go to Lab 5**](../lab500/README.md) | [Home](../README.md)
