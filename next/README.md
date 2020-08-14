@@ -15,16 +15,29 @@ If you want to **Upgrade** the Instances that we used, you can follow these simp
 
 We will show you how to Upgrade from **Always Free** instances right now.
 
-Remember that you will see **Always Free** logo next to the name of your database as part of the database details information:
+Remember that you will see **Always Free** logo next to the name of your database as part of the database details information. You can see **Instance Type** filled out with **Free Upgrate to Paid**.
 
 ![Always Free Database Details](../images/always_free_upgrade.png)
 
+We will upgrade to Paid License in this step. You can eiether click on the **Instance Type** that I refered before or click on **More Actions** bottom and go to **Upgrate Database Instance to Paid**, both ways bring you to the same step.
 
 ![Always Free Database Details More Actions](../images/always_free_upgrade_actions.png)
+
+**Confirm Upgrade** window. You can click **Upgdate Database Instance to Paid**.
+
 ![Always Free Database Details Confirmation](../images/always_free_upgrade_confirmation.png)
+
+After you perform this action, your database will be upgrade to **Paid** subsciption. The update will take a few minutes. 
+
 ![Always Free Database Details Confirmation Updating](../images/always_free_upgrade_confirmation_updating.png)
 
+You can see that **Instance Type** information has changed from **Free Upgrate to Paid** to **Paid**:
+
+![Always Free Database Details Paid](../images/always_free_upgrade_confirmation_paid.png)
+
+
+## I hope this lab has been useful for you to Updgrade to a subsciption model!
 
 ---
 
-[**<< Go to Sign Up**](../lab0/README.md) | [Home](../README.md) | [**Go to Lab 2 >>>>>**](../lab2/README.md)
+[**<< Go to Lab 5**](../lab500/README.md) | [Home](../README.md)
