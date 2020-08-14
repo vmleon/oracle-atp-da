@@ -35,8 +35,10 @@ You can see that **Instance Type** information has changed from **Free Upgrate t
 
 ![Always Free Database Details Paid](../images/always_free_upgrade_confirmation_paid.png)
 
+## It works
 
-## I hope this lab has been useful for you to Updgrade to a subsciption model!
+You have learnd how to Updgrade your Always Free Account to a subsciption model!
+
 
 ---
 
