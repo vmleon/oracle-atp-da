@@ -47,7 +47,7 @@ Sign in as the **ATP_ODA** user by selecting the icon on the centre of the scree
 
 ![ORDS](../images/apex_workspace5.png)
 
-Add the **name of the worspace**, **user name** and **password**: **ATP_ODA** and click **Sing in**.
+Add the **name of the worspace**, **user name** and **password**: **ATP_ODA** and click **Sign in**.
 
 ![ORDS](../images/apex_workspace7.png)
 
