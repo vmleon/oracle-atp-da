@@ -74,17 +74,17 @@ and select **Command Prompt**.
 
 ![Windows search Terminal](./images/cmd_1.png)
 
-That will open the Command Prompt/Terminal so you are ready to go.
+That will open the Command Prompt/Terminal, so now you are ready to go.
 
 ![Terminal](./images/cmd_2.png)
 
-[Here you can find a basic guidance of commands that you can use on the terminal.](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
+[Here you can find basic guidance for the commands that you can use on the terminal.](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
 
-Don't worry all the commands that we will need on the lab are part of the code so you don't need to learn any additional one.
+Don't worry all the commands that we will need for this lab are part of the code so you don't need to learn any additional ones.
 
 ### Node.js Installation
 
-We are going to **install** Node.js, if you have done this you can skip this step.
+We are going to **install** Node.js, if you already have this installed you can skip this step.
 
 ![Node.js](./images/nodejs.png)
 
@@ -106,7 +106,7 @@ Installation **completed**.
 
 ![Node Install End](./images/node_install_end.png)
 
-The last step sometimes take a while on Windows because the lack of libraries, plus sometimes perform a Windows Update. Another reminder to swap to Linux ;) Be patient and carry on.
+The last step can sometimes take a while on Windows as it may need to install additionaly libraries and sometimes it may need to perform a Windows Update. Another reminder to swap to Linux ;) Be patient and carry on.
 
 ![Node Native Modules Installation](./images/node_native_module.png)
 
