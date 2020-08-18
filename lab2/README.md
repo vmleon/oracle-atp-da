@@ -18,7 +18,7 @@ In this lab you will create a `tasks` table, REST enabling it, and make the serv
 
 ## Create APEX Workspace
 
-In this part of the lab we are creating an APEX workspace. From the Autonomous Database Home page go to **Tools** section and select **Oracle Application Express** area.
+In this part of the lab we are creating an APEX workspace. From the Autonomous Database Details Page, select the **Tools** tab. In the  **Oracle Application Express** area, select **Open Apex**.
 
 ![ORDS](../images/apex_workspace1.png)
 
@@ -51,8 +51,8 @@ Add the **name of the workspace**, **user name** and **password**: **ATP_ODA** a
 
 ![ORDS](../images/apex_workspace7.png)
 
-Now we are ready to create your APEX application on this workspace.
-You can check that you are correctly signed in with the **ATP_ODA** user in the right top corner.
+Now we are ready to create your APEX application in this workspace.
+You can check that you are correctly signed in with the **ATP_ODA** user by checking the user details in the top right corner.
 
 ![ORDS](../images/apex_workspace8.png)
 
@@ -62,7 +62,7 @@ Quick SQL reduces the time and effort required to create SQL tables, triggers, a
 
 It is not designed to be a replacement for data modeling. Quick SQL is simply a quick way to develop a script for simple tables and views.
 
-Once the SQL is generated it can be tweaked and expanded upon.
+Once the SQL is generated it can be tweaked and expanded.
 
 Quick SQL provides a quick way to generate the SQL required to create a relational data model from an indented text document.
 
@@ -72,7 +72,7 @@ Use Cases:
 - Easily generate random data
 - Learn SQL create table, select, insert, index, trigger, PL/SQL package, and view syntax using provided examples
 
-Go to Quick SQL.
+Go to Quick SQL by selecting the **SQL Workshop** drop down menu, then **Utilities** and select **Quick SQL**.
 
 ![Quick SQL](../images/apex_quick_sql_menu.png)
 
@@ -107,31 +107,30 @@ Click **Run Now**.
 
 ![Save SQL Script](../images/apex_quick_sql_run_now.png)
 
-Make sure all statements are successfully run and there are no errors.
+Make sure all statements have successfully run and there are no errors.
 
 ![Save SQL Script](../images/apex_quick_sql_run_success.png)
 
 ## Insert rows on the table
 
-We are going to mock some data to use it later with your Custom Component.
+We are going to create some mock data to use later with your Custom Component.
 
-Go to the Top Menu on **SQL Workshop**, click **Object Browser**.
+Select the **SQL Workshop** drop down menu and click **Object Browser**.
 
 ![](../images/apex_object_browser_menu.png)
 
-Select **TASKS** table on the left and click the tab **Data**, then click **Insert Row**:
+Select the **TASKS** table on the left and click the tab **Data**, then click **Insert Row**:
 
 ![Object Browser Data](../images/apex_object_data.png)
 
-Leave `Id` empty and fill the field `Text` with a task description you like.
-
-When you are happy with your new task, click **Create and Create Another** and do the same with another task.
+Leave `Id` empty and fill the field `Text` with a task description. You can enter your own task descriptions or follow our example below.
 
 To follow the same example we have created:
 
 ```
 Get concert tickets
 ```
+When you are happy with your new task, click **Create and Create Another** and do the same with another task.
 
 ![Object Browser Data](../images/apex_object_insert_row_1.png)
 
@@ -240,7 +239,7 @@ If you have a **browser extension to visualize JSON** you will see the informati
 
 You should see the items with `id` and `text` and other fields and references in JSON format.
 
-How many items do you see? You should have as many tasks as you created before in the table.
+How many items do you see? Your output should have all the tasks as you inserted into the table.
 
 ## Congratulations! You are ready to go to the next Lab!
 
