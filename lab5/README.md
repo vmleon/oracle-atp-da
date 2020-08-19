@@ -26,7 +26,10 @@ In this lab, we're starting from scratch. So the first thing you'll do is **crea
 
 ![Create Skill](../images/oda_lab5_3.png)
 
-**Fill** the information like in the image and click **Create** button:
+**Fill** the information and click **Create** button:
+- **Display Name**: My tasks
+- **Name**: mytasks
+
 
 ![Create Skill](../images/skill_2.png)
 
@@ -34,13 +37,14 @@ In this lab, we're starting from scratch. So the first thing you'll do is **crea
 
 ## Import the Custom Component
 
-Import Custom Component is very simple.
+Importing a Custom Component is very simple.
 
 **Go** to the **Components** view ![Components](../images/components-icon.png) on the left menu. Select `+ Service`.
 
 ![Create Skill](../images/cc_import_1.png)
 
-The web form to **upload** the file will **show up**.
+The pop-up web form to **upload** the file will be shown.
+
 We will fill out all the information of this web form.
 
 Select `Upload a component package file (a .tgz file created by running bots-node-sdk pack or npm pack) or drag it here.`
@@ -56,6 +60,7 @@ Select `Upload a component package file (a .tgz file created by running bots-nod
 - **Name**: tasks
 - **Description**: Tasks Custom Component
 - **Embedded Container** is selected by default. Leave it like that.
+- **Enable Component Logging**: set to on
 
 Finally **Create** the Service.
 
@@ -89,7 +94,7 @@ We will start working on the **Intent** page. The page by default looks like thi
 
 - **Conversation Name**: Greeting
 - **Name**: Greeting
-- **Utterances to Add**: In this field is where you have ti type the different Greetings that you want to include as part of the Intent. Type on this field `hi` and click enter. Wait to be added as part of the intents. Type on the same field `hello` and wait to be added as before.
+- **Utterances to Add**: In this field is where you have to type in the different Greetings that you want to include as part of the Intent. Type `hi` in this field  and click enter. Wait for it to be added as part of the intents. Type on the same field `hello` and wait for it to be added as before.
 
 The two **Intents** that you added a few seconds ago will be visible in the page. Check the following screenshot to confirm.
 
@@ -103,7 +108,7 @@ The two **Intents** that you added a few seconds ago will be visible in the page
 
 - **Conversation Name**: ListTasks
 - **Name**: ListTasks
-- **Utterances to Add**: In this field is where you have ti type the different Greetings that you want to include as part of the Intent. Type on this field `list my tasks` and click enter. Wait to be added as part of the intents. Type on the same filed `show me my tasks` and wait to be added as before. And finally type on the same filed `tasks` and wait to be added as before.
+- **Utterances to Add**: In this field is where you have ti type the different Greetings that you want to include as part of the Intent. Type on this field `list my tasks` and click enter. Wait to be added as part of the intents. Type on the same field `show me my tasks` and wait for it to be added as before. And finally type on the same field `tasks` and wait for it to be added as before.
 
 The three **Intents** that you added a few seconds ago will be visible in the page. Check the following screenshot to confirm.
 
@@ -115,13 +120,16 @@ Time to **integrate** your **Custom Component with the Intent** `ListTasks` crea
 
 **Go** to the **Flows** view ![Flows](../images/flows-menu-item.png) on the left menu.
 
-You will **see** the `YAML` file that define the behavior of your **Skill**.
+You will **see** the `YAML` file that defines the behavior of your **Skill**.
 
 ![Flows 1](../images/flows_1.png)
 
 **Delete** the full content of the **Flows** section and leave the canvas **empty**.
 
 ![Flows 2](../images/flows_2.png)
+
+This flow includes the 2 **intents**  you defined earlier, and also an unresolved action to carry out if the digital assistant cannot match the user's input to an existing **intent**.
+
 
 **Copy** this `YAML` content:
 
@@ -192,29 +200,29 @@ states:
 
 <!-- TODO Explain every part of the Flows definition.-->
 
-The **Flows** section should look like this one:
+Your **Flows** section should look like this one:
 
 ![Flows 3](../images/flows_3.png)
 
-**Make sure** the syntax is correct. **Click** on the `Validate` button. **Be sure** that you get the **correct validation message** on the top of the page as you can see on the image below:
+**Make sure** the syntax is correct. **Click** on the `Validate` button. **Be sure** that you get the green tick and  a successful validation  on the top of the page as you can see on the image below:
 
 ![Flows 4](../images/flows_4.png)
 
-Click **Train** button to run the **Machine Learning Algorithm**.
+Click **Train** button to run the **Machine Learning Algorithm**. Select **Trainer Ht** and select **Submit**.
 
 ![Flows 5](../images/flows_5.png)
 
-**Be sure** that you get the **correct train message** confirmation on the top of the page as you can see on the image below:
+**Be sure** that you get the green tick and a **ready to use** confirmation on the top of the page as you can see on the image below:
 
 ![Flows 6](../images/flows_6.png)
 
-**Run** the test of the skill clicking the `Play` button next to `Validate`.
+Test your skill by clicking the `Play` button next to `Validate`.
 
 ![Run Flows](../images/flows_7.png)
 
 The way to test the conversation is typing any of the **Intents** that we have created on this Lab5.
 
-For example: say `hi` and wait for the bot answer. In this case the answer is `Greetings, hooman!`. Type the next Intent `show me my tasks` and wait for the bot answer. Now the answer is `Get concert tickets` and `Buy bread`.
+For example: say `hi` and wait for the bot to answer. In this case the answer is `Greetings, hooman!`. Type the next Intent `show me my tasks` and wait for the bot to answer. Now the answer is `Get concert tickets` and `Buy bread`.
 
 ![Test](../images/oda_test_1.gif)
 
@@ -233,11 +241,11 @@ For example: say `hi` and wait for the bot answer. In this case the answer is `G
 
 ---
 
-## It works
+## It works!
 
-To see how we **request** against the **database**, we can **add** a new item.
+To demonstrate that the task list is being  **requested** from the **database**, we can **add** a new task item.
 
-**Insert** your third element in the collection of data by going to **APEX** and on the Top Menu on **SQL Workshop**, click **Object Browser** as we did on **Lab 2**:
+**Insert** your third element in the collection of data by going to **APEX** and on the Top Menu select the **SQL Workshop** drop down menu, click **Object Browser** as we did during **Lab 2**:
 
 ![](../images/apex_object_browser_menu_clean.png)
 
@@ -253,7 +261,7 @@ Select **TASKS** table on the left of the APEX page and **click** the tab **Data
 
 ![Object Browser Data](../images/apex_object_data_insert_row_created.png)
 
-**Run** the chat again but before **reset** the previous **conversation**.
+**Run** the chat again, first selecting to **reset** the previous **conversation**.
 
 For example: reset the conversation by clicking on **Reset** then say `hi` and wait for the bot answer. Type the next Intent `show me my tasks` and wait for the bot answer. Now the answer is `Get concert tickets`, `Buy bread`, and `New Item!`.
 

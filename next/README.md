@@ -9,11 +9,11 @@
 
 ![Oracle Cloud Pricing](../images/next_banner.png)
 
-I hope you could complete all the labs on this Oracle APEX and Digital Assistant labs and you learn the basic concepts from the technologies that we have use: - **Oracle Autonomous Database** - **Oracle Application Express** - **Oracle Digital Assistant**
+I hope you could complete all the labs on this Oracle APEX and Digital Assistant labs and you have learned the basic concepts from the technologies that we have used: - **Oracle Autonomous Database** - **Oracle Application Express** - **Oracle Digital Assistant**
 
-The technologies that we have covered on this workshop are using **Always Free** and **Free Trial** credits so you don't have to pay for the services that you have use.
+The technologies that we have covered on this workshop are using **Always Free** and **Free Trial** credits so you don't have to pay for the services that you have used.
 
-If you want to **Upgrade** the Instances that we used, you can follow these simple steps to upgrade to your favorite subscription model.
+If you want to **Upgrade** the Instances that we used, you can follow these simple steps to upgrade to your favorite paid subscription model.
 
 [Here you can see the differences models that Oracle has available.](https://www.oracle.com/ie/cloud/pricing.html)
 
@@ -43,7 +43,7 @@ You have learned how to Upgrade your Always Free Account to a subscription model
 
 ## Want to learn more?
 
-If you enjoy the workshop, give me a star on Github: [click here](https://github.com/vmleon/oracle-atp-da)!
+If you have enjoyed the workshop, give me a star on Github: [click here](https://github.com/vmleon/oracle-atp-da)!
 ![Github start](../images/github.png)
 
 Please, help us to improve. [Create an issue](https://github.com/vmleon/oracle-atp-da/issues) if you think something is not quite right.
@@ -54,7 +54,7 @@ Learn Kubernetes with [Oracle Kubernetes Engine](https://github.com/vmleon/OKE-f
 
 Learn about HTTP security with [Oracle Cloud Web Application Firewall](https://github.com/vmleon/Oracle-WAF-Demo) (Workshop)
 
-Check [Oracle Tech Exchange](https://fnimphiu.github.io/OracleTechExchange/) contains a lot of short tutorials about Oracle Digital Assistant
+Check out [Oracle Tech Exchange](https://fnimphiu.github.io/OracleTechExchange/)  which contains a lot of short tutorials about Oracle Digital Assistant
 
 ## Troubleshooting
 

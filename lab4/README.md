@@ -6,9 +6,9 @@ Custom Components are a bridge between **Skills** on Oracle Digital Assistant an
 
 ![Custom Component Architecture](../images/oda_cc_architecture.png)
 
-Custom components allow you as well to plug-in custom code logic into a bot conversation.
+Custom components also allow you to plug-in custom code logic into a bot conversation.
 
-That is exactly what we are going to build.
+This is exactly what we are going to build.
 
 **Custom Components** are developed using **Node.js**. They are just a REST **API** that offer an endpoint to **Skills** bots to `GET` and `POST` actions.
 
@@ -20,7 +20,7 @@ You can package related **Custom Components** together.
 
 Oracle provides **Oracle Bots Node.js SDK**, a free utility that makes custom components development very easy.
 
-> We had explained the installation steps in the Pre-requisites section at the very beginning of this lab.
+> The node.js installation process is shown in the lab-prequisite section at the start of the lab.
 
 Ready to create your **Custom Component** scaffolding.
 
@@ -47,7 +47,7 @@ Usage:
 
 > NOTE:
 >
-> A new folder `tasks-cc` was created with this hierarchy inside:
+> A new folder `tasks-cc` was created on your system with this hierarchy inside:
 >
 > ![Custom Component thee](../images/node_tree.png)
 >
@@ -67,7 +67,7 @@ Install the library with the following command:
 npm install node-fetch
 ```
 
-Edit the file `package.json` in `tasks-cc` folder. You can use your favorite text editor. My choice is [Visual Code](https://code.visualstudio.com/) but feel free to use any. Even Notepad for those Windows user that don't want to install anything else.
+Edit the file `package.json` in `tasks-cc` folder. You can use your favorite text editor. My choice is [Visual Code](https://code.visualstudio.com/) but feel free to use any. Even Notepad will work for those Windows users that don't want to install anything else.
 
 ![Location package.json](../images/node_package_json.png)
 
@@ -133,7 +133,7 @@ module.exports = {
 
 **IMPORTANT**:
 
-**Remember** to change the `<URL_copied_from_APEX>` with the **URL** copied on **APEX** in **Lab 2**.
+**Remember** to change the `<URL_copied_from_APEX>` with the **URL**  for your ORDS module copied from **APEX** in **Lab 2**.
 
 ![Copy URL from APEX](../images/apex_copy_url.png)
 
