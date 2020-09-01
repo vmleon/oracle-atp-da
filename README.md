@@ -8,7 +8,7 @@ This workshop walks you through the steps to use **Autonomous Database** and **A
 
 ## Who Should Do This Workshop
 
-You want to **store information in a easy and powerful database** and provide **a 24/7 conversational experience** with people using your services.
+You want to **store information in an easy and powerful database** and provide **a 24/7 conversational experience** with people using your services.
 
 You want to **learn Oracle Digital Assistant**.
 
@@ -70,7 +70,7 @@ As a **Windows user** you need to type on the **Windows Search** Icon:
 cmd
 ```
 
-and select **Command Prompt**.
+And select **Command Prompt**.
 
 ![Windows search Terminal](./images/cmd_1.png)
 
