@@ -106,7 +106,7 @@ Installation **completed**.
 
 ![Node Install End](./images/node_install_end.png)
 
-The last step can sometimes take a while on Windows as it may need to install additionaly libraries and sometimes it may need to perform a Windows Update. Another reminder to swap to Linux ;) Be patient and carry on.
+The last step can sometimes take a while on Windows as it may need to install additionally  libraries and sometimes it may need to perform a Windows Update. Another reminder to swap to Linux ;) Be patient and carry on.
 
 ![Node Native Modules Installation](./images/node_native_module.png)
 
