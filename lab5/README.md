@@ -261,7 +261,7 @@ For example: reset the conversation by clicking on **Reset** then say `hi` and w
 
 # Congratulations! Well done!
 
-Continue to the Appendix for more information!
+Continue to the Next Steps for more information!
 
 ---
 
