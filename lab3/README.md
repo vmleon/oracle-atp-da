@@ -28,7 +28,7 @@ Both intents and entities are common **Natural Language Processing (NLP)** conce
 
 ## Create a Digital Assistant instance
 
-**Create** a Digital Assistant instance to start working with bots. You can find advance set up steps on the [official documentation](https://docs.oracle.com/en/cloud/paas/digital-assistant/use-chatbot/order-service-and-provision-instance.html#GUID-7E4F1CE5-FB40-45DF-B0F0-949289F5E184).
+**Create** a Digital Assistant instance to start working with bots. You can find the advanced set up steps on the [official documentation](https://docs.oracle.com/en/cloud/paas/digital-assistant/use-chatbot/order-service-and-provision-instance.html#GUID-7E4F1CE5-FB40-45DF-B0F0-949289F5E184).
 
 Go to the **Menu** and **Digital Assistant**:
 
@@ -38,11 +38,14 @@ Click on **Create** Digital Assistant Instance button:
 
 ![ODA Menu](../images/oda_2.png)
 
-You will have the **root compartment** selected, or pick the one you want.
+Use the following information to fill out the form:
+- Compartment: **root compartment** selected, or select the one you want if you have multiple compartments in your tenancy.
+- Name: oda
+- Shape: Development
 
-Fill the information as in the next image. Developer edition is perfect for this lab and develop new **Digital Assistant** systems until you want to move to production.
+Development shape is perfect for this lab and allows you to develop new **Digital Assistant** systems until you want to move to production.
 
-Finally click "**Create**" bottom:
+Finally click the "**Create**" button:
 
 ![ODA Menu](../images/oda_3.png)
 
@@ -73,7 +76,7 @@ You can always **Watch Videos** on the **Learn** section at the bottom and explo
 
 ## It works
 
-Make sure you look around and feel familiar with the menus.
+Make sure you look around and start to feel familiar with the menus.
 
 ![ODA Menu](../images/oda_6.png)
 
