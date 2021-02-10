@@ -24,6 +24,10 @@ Detect and protect from system failures and user errors automatically and provid
 
 Perfect for Developers!
 
+Watch our short video that explains Lab 1 - Create Autonomous Database and Lab 2 - Create APEX workshop and REST API:
+
+[![ATP Provisioning](https://img.youtube.com/vi/S9WPR0N0f2E/hqdefault.jpg)](https://youtu.be/S9WPR0N0f2E)
+
 ## Create a new Autonomous Transaction Processing
 
 Go to the **Autonomous Transaction Processing (ATP)** menu:
@@ -42,7 +46,7 @@ You can leave the compartment as it is. It will say something like _<tenancy_nam
 
 Make sure you select **Transaction Processing** and **Shared Infrastructure**.
 
-![ATP Creation](../images/atp_creation_1.png)
+![ATP Creation](../images/atp_creation_1_2.png)
 
 You can select **Always Free** configuration to start enjoying your Free Autonomous Database. You will have visible the **Always Free** logo next to the name of your database:
 
