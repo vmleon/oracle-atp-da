@@ -147,6 +147,7 @@ states:
     properties:
       variable: iResult
     transitions:
+      next: 'greeting'
       actions:
         Greeting: greeting
         ListTasks: listTasks
@@ -164,6 +165,7 @@ states:
   listTasks:
     component: com.example.tasks
     transitions:
+      next: 'greeting'
       actions:
         success: successState
         failure: failureState
@@ -200,11 +202,11 @@ states:
 
 Your **Flows** section should look like this one:
 
-![Flows 3](../images/flows_3_2.png)
+![Flows 3](../images/flows_3_3.png)
 
-**Make sure** the syntax is correct. **Click** on the `Validate` button. **Be sure** that you get the green tick and  a successful validation  on the top of the page as you can see on the image below:
+**Make sure** the syntax is correct. **Click** on the `Validate` button. You will get a warning message **We have identified some issues that might cause problems with the my tasks skill. Open the logger window to see more details.** on the top of the page as you can see on the image below. You can explore the warning on **View validation results** section to learn. We can proceed with next steps.
 
-![Flows 4](../images/flows_4_2.png)
+![Flows 4](../images/flows_4_3.png)
 
 Click **Train** button to run the **Machine Learning Algorithm**. Select **Trainer Ht** and select **Submit**.
 
