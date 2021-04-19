@@ -32,7 +32,7 @@ Watch our short video that explains Lab 1 - Create Autonomous Database and Lab 2
 
 Go to the **Autonomous Transaction Processing (ATP)** menu:
 
-![Menu ATP](./../images/menu_atp.png)
+![Menu ATP](./../images/menu_atp_1.png)
 
 In this lab we will show creating the database in the **root compartment**, which is acceptable for labs and quick tests. 
 

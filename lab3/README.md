@@ -34,9 +34,9 @@ Watch our short video that explains Lab 3 - Create Oracle Digital Assistant, Lab
 
 **Create** a Digital Assistant instance to start working with bots. You can find the advanced set up steps on the [official documentation](https://docs.oracle.com/en/cloud/paas/digital-assistant/use-chatbot/order-service-and-provision-instance.html#GUID-7E4F1CE5-FB40-45DF-B0F0-949289F5E184).
 
-Go to the **Menu** and **Digital Assistant**:
+Go to the **Menu**, **Analytics & AI** and **Digital Assistant**:
 
-![ODA Menu](../images/oda_1.png)
+![ODA Menu](../images/oda_1_1.png)
 
 Click on **Create** Digital Assistant Instance button:
 
